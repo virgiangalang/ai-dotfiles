@@ -142,21 +142,22 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 <tr>
 <td width="50%" valign="top">
 
-### 🔢 Data Analyst / BI Developer
-*Python · SQL · Power BI · Tableau · dbt*
+### 📊 Data Analyst & BI Developer
+*SQL · Python · Power BI · Tableau · Research · Market Sizing*
 
 **You'll use most:**
-- `data-analyst`, `data-viz-expert`, `sql-analyst`
-- `/eda`, `/sql-optimize`, `/viz-brief`, `/dashboard-audit`
-- Skills: `data-analytics`, `sql-analytics`, `power-bi`, `data-visualization`
+- `data-analyst`, `data-viz-expert`, `sql-analyst`, `market-researcher`, `business-analyst`
+- `/eda`, `/sql-optimize`, `/viz-brief`, `/dashboard-audit`, `/market-analysis`, `/growth-audit`
+- Skills: `data-analytics`, `sql-analytics`, `power-bi`, `data-visualization`, `market-research`, `growth-metrics`
 
 **What this gives you:**
-- EDA on any dataset in minutes (full statistical summary + insight brief)
-- Senior-level SQL: window functions, cohort analysis, funnel queries
-- Power BI: star schema + DAX patterns library (time intelligence, ranking, running totals)
+- EDA on any dataset in minutes — full statistical summary + insight brief
+- Senior-level SQL: window functions, cohort analysis, funnel queries, dbt
+- Power BI: star schema + full DAX patterns (time intelligence, ranking, running totals)
 - Production charts (matplotlib/plotly/seaborn) with insight-first titles
+- Market sizing (TAM/SAM/SOM), competitor research, growth metrics (CAC/LTV/funnel)
 
-**Start here:** [Data Analytics use cases →](GUIDE.md#data-analytics--business-intelligence)
+**Start here:** [Data Analytics →](GUIDE.md#data-analytics--business-intelligence) + [Business & Strategy →](GUIDE.md#business--strategy)
 
 </td>
 <td width="50%" valign="top">
@@ -166,15 +167,16 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 
 **You'll use most:**
 - `automation-architect`, `agent-builder`, `n8n-specialist`, `model-advisor`
-- `/agent-blueprint`, `/biz-automate`, `/model-compare`, `/agent-deploy`
-- Skills: `agent-architecture`, `multi-agent-systems`, `n8n-automation`, `model-selection`
+- `/agent-blueprint`, `/biz-automate`, `/model-compare`, `/agent-deploy`, `/automation-audit`
+- Skills: `agent-architecture`, `multi-agent-systems`, `n8n-automation`, `model-selection`, `business-automation`
 
 **What this gives you:**
-- Build production AI agents (Claude SDK, LangGraph, CrewAI)
-- Design multi-agent systems: orchestrator + worker pattern
-- N8N workflows connecting 400+ apps with AI reasoning
-- Model comparison: GPT-4o vs Claude vs Gemini vs DeepSeek — with cost calculator
-- Deploy to Railway/Render/Fly.io with rate limiting + monitoring
+- Build production AI agents from scratch (Claude SDK, LangGraph, CrewAI)
+- Design multi-agent systems: orchestrator + specialist worker pattern
+- N8N workflows connecting 400+ apps with built-in AI reasoning
+- Model comparison: GPT-4o vs Claude vs Gemini vs Llama vs DeepSeek — with cost calculator
+- Deploy to Railway/Render/Fly.io with rate limiting, monitoring, CI/CD
+- Full business automation: Marketing · Sales · Ops · Finance as agent teams
 
 **Start here:** [Automation Engineer use cases →](GUIDE.md#automation-engineer--ai-agents)
 
@@ -196,21 +198,6 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 </td>
 <td width="50%" valign="top">
 
-### 📊 Data / Business Analyst
-*Research · Market Sizing · Dashboards · Reports*
-
-**You'll use most:**
-- `market-researcher`, `marketing-analyst`, `business-analyst`
-- `/market-analysis`, `/growth-audit`, `/brand-audit`
-- `data-analytics`, `market-research`, `growth-metrics` skills
-
-**Start here:** [Business & Strategy →](GUIDE.md#business--strategy) + [Marketing →](GUIDE.md#marketing)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 📈 Trader / Quant
 *Algo · Backtesting · Risk · Neural Strategies*
 
@@ -219,17 +206,14 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 - Skills: `trader-backtest`, `trader-risk`, `trader-signal`, `neural-train`
 - Full pipeline: regime detection → signal → risk gate → backtest
 
-**What this unlocks:**
+**What this gives you:**
 - Market regime classification (RSI, MACD, Bollinger, volume profile)
 - Neural strategy design (LSTM / Transformer models) via `npx neural-trader`
 - Risk management: VaR/CVaR, Kelly Criterion, position sizing
 - Walk-forward validation + Monte Carlo simulation
-- The 4 agents work as a **pipeline** — each passes output to the next
+- 4 agents work as a pipeline — each passes output to the next
 
 **Start here:** [Trading & Finance →](#-trading--quantitative-finance-neural-trader)
-
-</td>
-<td width="50%" valign="top">
 
 </td>
 </tr>
