@@ -95,6 +95,46 @@ if ($All -or $ClaudeCode) {
         Write-Host "  Marketing commands installed (~/.claude/commands/)" -ForegroundColor Green
     }
 
+    # Install data agents (data analyst, data viz expert, SQL analyst)
+    Write-Host "  Installing data agents..." -ForegroundColor Gray
+    if (Test-Path "$REPO\data-agents") {
+        New-Item -ItemType Directory -Force "$claudeDir\agents" | Out-Null
+        Get-ChildItem "$REPO\data-agents" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\agents\$($_.Name)"
+        }
+        Write-Host "  Data agents installed (~/.claude/agents/)" -ForegroundColor Green
+    }
+
+    # Install data commands (/eda, /viz-brief, /sql-optimize, /dashboard-audit)
+    Write-Host "  Installing data commands..." -ForegroundColor Gray
+    if (Test-Path "$REPO\data-commands") {
+        New-Item -ItemType Directory -Force "$claudeDir\commands" | Out-Null
+        Get-ChildItem "$REPO\data-commands" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\commands\$($_.Name)"
+        }
+        Write-Host "  Data commands installed (~/.claude/commands/)" -ForegroundColor Green
+    }
+
+    # Install automation agents (automation architect, agent builder, N8N specialist, model advisor)
+    Write-Host "  Installing automation agents..." -ForegroundColor Gray
+    if (Test-Path "$REPO\automation-agents") {
+        New-Item -ItemType Directory -Force "$claudeDir\agents" | Out-Null
+        Get-ChildItem "$REPO\automation-agents" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\agents\$($_.Name)"
+        }
+        Write-Host "  Automation agents installed (~/.claude/agents/)" -ForegroundColor Green
+    }
+
+    # Install automation commands (/agent-blueprint, /automation-audit, /model-compare, /agent-deploy, /biz-automate)
+    Write-Host "  Installing automation commands..." -ForegroundColor Gray
+    if (Test-Path "$REPO\automation-commands") {
+        New-Item -ItemType Directory -Force "$claudeDir\commands" | Out-Null
+        Get-ChildItem "$REPO\automation-commands" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\commands\$($_.Name)"
+        }
+        Write-Host "  Automation commands installed (~/.claude/commands/)" -ForegroundColor Green
+    }
+
     # Install ECC rules (common + typescript + react) — dari repo, no internet needed
     Write-Host "  Installing ECC rules..." -ForegroundColor Gray
     $rulesDir = "$claudeDir\rules\ecc"

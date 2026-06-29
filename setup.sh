@@ -76,6 +76,38 @@ if [ "$ALL" = true ] || [ "$CLAUDE_CODE" = true ]; then
         echo "  ✓ Marketing commands installed to ~/.claude/commands/"
     fi
 
+    # Install data agents (data analyst, data viz expert, SQL analyst)
+    echo "  Installing data agents..."
+    mkdir -p "$CLAUDE_DIR/agents"
+    if [ -d "$REPO/data-agents" ]; then
+        cp -f "$REPO/data-agents"/* "$CLAUDE_DIR/agents/" 2>/dev/null
+        echo "  ✓ Data agents installed to ~/.claude/agents/"
+    fi
+
+    # Install data commands (/eda, /viz-brief, /sql-optimize, /dashboard-audit)
+    echo "  Installing data commands..."
+    mkdir -p "$CLAUDE_DIR/commands"
+    if [ -d "$REPO/data-commands" ]; then
+        cp -f "$REPO/data-commands"/* "$CLAUDE_DIR/commands/" 2>/dev/null
+        echo "  ✓ Data commands installed to ~/.claude/commands/"
+    fi
+
+    # Install automation agents (automation architect, agent builder, N8N specialist, model advisor)
+    echo "  Installing automation agents..."
+    mkdir -p "$CLAUDE_DIR/agents"
+    if [ -d "$REPO/automation-agents" ]; then
+        cp -f "$REPO/automation-agents"/* "$CLAUDE_DIR/agents/" 2>/dev/null
+        echo "  ✓ Automation agents installed to ~/.claude/agents/"
+    fi
+
+    # Install automation commands (/agent-blueprint, /automation-audit, /model-compare, /agent-deploy, /biz-automate)
+    echo "  Installing automation commands..."
+    mkdir -p "$CLAUDE_DIR/commands"
+    if [ -d "$REPO/automation-commands" ]; then
+        cp -f "$REPO/automation-commands"/* "$CLAUDE_DIR/commands/" 2>/dev/null
+        echo "  ✓ Automation commands installed to ~/.claude/commands/"
+    fi
+
     # Install ECC rules (common + typescript + react) — dari repo, no internet needed
     echo "  Installing ECC rules..."
     RULES_DIR="$CLAUDE_DIR/rules/ecc"

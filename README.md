@@ -142,6 +142,47 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 <tr>
 <td width="50%" valign="top">
 
+### 🔢 Data Analyst / BI Developer
+*Python · SQL · Power BI · Tableau · dbt*
+
+**You'll use most:**
+- `data-analyst`, `data-viz-expert`, `sql-analyst`
+- `/eda`, `/sql-optimize`, `/viz-brief`, `/dashboard-audit`
+- Skills: `data-analytics`, `sql-analytics`, `power-bi`, `data-visualization`
+
+**What this gives you:**
+- EDA on any dataset in minutes (full statistical summary + insight brief)
+- Senior-level SQL: window functions, cohort analysis, funnel queries
+- Power BI: star schema + DAX patterns library (time intelligence, ranking, running totals)
+- Production charts (matplotlib/plotly/seaborn) with insight-first titles
+
+**Start here:** [Data Analytics use cases →](GUIDE.md#data-analytics--business-intelligence)
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ Automation Engineer
+*AI Agents · N8N · Multi-Agent · Deploy*
+
+**You'll use most:**
+- `automation-architect`, `agent-builder`, `n8n-specialist`, `model-advisor`
+- `/agent-blueprint`, `/biz-automate`, `/model-compare`, `/agent-deploy`
+- Skills: `agent-architecture`, `multi-agent-systems`, `n8n-automation`, `model-selection`
+
+**What this gives you:**
+- Build production AI agents (Claude SDK, LangGraph, CrewAI)
+- Design multi-agent systems: orchestrator + worker pattern
+- N8N workflows connecting 400+ apps with AI reasoning
+- Model comparison: GPT-4o vs Claude vs Gemini vs DeepSeek — with cost calculator
+- Deploy to Railway/Render/Fly.io with rate limiting + monitoring
+
+**Start here:** [Automation Engineer use cases →](GUIDE.md#automation-engineer--ai-agents)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🔧 Forward Deployed Engineer (FDE)
 *PM + Solution Engineer + Software Engineer*
 
@@ -268,13 +309,15 @@ claude mcp add ruflo -- npx ruflo@latest mcp start
 | 🎨 **Custom (Galang's Picks)** | 14 | — | — | Supabase, Vercel, mobile RN, Indonesian payment gateways, doc generation |
 | 📊 **Business Pack** | 10 | 8 | 10 | Strategy · OKR · pitch · market research · solution design · edutech |
 | 📣 **Marketing Pack** | 8 | 8 | 10 | Ads (Google/Meta/TikTok) · brand · content · growth metrics · SEO · email |
+| 🔢 **Data Analytics Pack** | 4 | 3 | 4 | Power BI · Tableau · SQL analytics · data visualization · EDA · dbt |
+| 🤖 **Automation Engineer Pack** | 6 | 4 | 5 | AI agent build · multi-agent · N8N · model selection · deploy · biz automation |
 | ⚡ **ECC** (Hackathon Winner) | 271 | 67 | 92 | Always-on rules: coding standards / TypeScript / React |
 | 🔁 **Ruflo** (35 plugins) | 129 | 56 | 49 | Neural trader · RAG memory · browser automation |
 | 💪 **Superpowers** | 14 | — | — | TDD · brainstorming · git worktree |
 | 🧠 **Claude-Mem** | 17 | — | — | Codebase memory · 36 cognitive modes |
 | 🤖 **Anthropic Official** | 10 | 14 | 14 | 18 hooks |
 | | | | | |
-| **GRAND TOTAL** | **~473** | **~153** | **~175** | |
+| **GRAND TOTAL** | **~483** | **~160** | **~184** | |
 
 ---
 
@@ -448,6 +491,51 @@ backtest-engineer    → walk-forward validation + Monte Carlo simulation
 **Agents:** `market-analyst` · `trading-strategist` · `risk-analyst` · `backtest-engineer`
 
 > ⚠️ These tools are for research and backtesting only. Past performance does not guarantee future results. Always verify before live trading.
+
+</details>
+
+<details>
+<summary><b>🔢 Data Analytics & Business Intelligence</b></summary>
+<br/>
+
+A full data team in your AI — from raw SQL to Power BI dashboards.
+
+- **EDA in one command** — data quality audit, distributions, correlations, anomaly detection, business insight summary
+- **SQL at senior level** — window functions, CTEs, cohort analysis, funnel queries, dbt models for BigQuery/Snowflake/PostgreSQL
+- **Power BI** — star schema data model, DAX measures (time intelligence, ranking, running totals), Power Query (M), report design
+- **Visualization** — chart selection framework, matplotlib/seaborn/plotly production-quality code, Streamlit dashboards
+- **Tableau** — calculated fields, LOD expressions, dashboard actions
+- **Python data stack** — pandas, numpy, scipy, statsmodels, plotly, seaborn
+
+**Skills:** `data-analytics` `data-visualization` `sql-analytics` `power-bi`  
+**Agents:** `data-analyst` `data-viz-expert` `sql-analyst`  
+**Commands:** `/eda` `/viz-brief` `/sql-optimize` `/dashboard-audit`
+
+</details>
+
+<details>
+<summary><b>⚙️ Automation Engineer — AI Agents & Business Automation</b></summary>
+<br/>
+
+Build a company of 100 AI agents — one person operating at the scale of a full team.
+
+```
+Process identified → Agent designed → Built & tested → Deployed → Business runs automatically
+```
+
+**What this unlocks:**
+
+- **Build AI agents from scratch** — ReAct, Plan-and-Execute, Reflexion patterns; LangChain, LangGraph, Claude SDK, OpenAI
+- **Multi-agent orchestration** — LangGraph state machines, CrewAI role teams, Claude multi-agent with orchestrator/workers
+- **N8N automation** — connect 400+ apps, build AI agent workflows, scheduled automation, webhook triggers, error handling
+- **Model selection & cost** — compare GPT-4o vs Claude vs Gemini vs Llama vs DeepSeek; cost calculator; hybrid model strategy
+- **Department automation templates** — Marketing (content, ads, SEO) · Sales (lead qualify, outreach, proposals) · Ops (onboarding, support, invoicing) · Finance (reporting, reconciliation)
+- **Production deployment** — Docker, Railway, Render, Fly.io, VPS; rate limiting, cost monitoring, CI/CD
+- **ROI calculation** — calculate hours saved, cost reduction, and payback period before building anything
+
+**Skills:** `agent-architecture` `multi-agent-systems` `n8n-automation` `model-selection` `agent-deployment` `business-automation`  
+**Agents:** `automation-architect` `agent-builder` `n8n-specialist` `model-advisor`  
+**Commands:** `/agent-blueprint` `/automation-audit` `/model-compare` `/agent-deploy` `/biz-automate`
 
 </details>
 
