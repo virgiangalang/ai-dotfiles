@@ -40,7 +40,7 @@ In practice, this means he can simultaneously act as:
 
 **What this unlocks:**
 - He understands a company's business problem — not just the technical ticket
-- He speaks fluently to CEOs, product teams, and engineering teams in the same meeting
+- He speaks fluently to product teams, and engineering teams in the same meeting
 - He can go from client discovery to a working product without handoff gaps
 
 **Background:**
