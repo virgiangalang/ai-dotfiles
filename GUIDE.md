@@ -15,7 +15,8 @@ Find your role and go straight to what's relevant to you.
 | 📣 **CMO / Marketer** | [Marketing](#marketing) → `/marketing-plan` `/ads-brief` `/gtm-plan` `/growth-audit` |
 | 📋 **Product Manager** | [Business & Strategy](#business--strategy) → `/product-roadmap` `/okr-workshop` `/jtbd` |
 | 🔧 **Forward Deployed Engineer** | [Business & Strategy](#business--strategy) + [Web App](#web-app-react--vite--typescript) → full stack |
-| 📊 **Data / Business Analyst** | [Business & Strategy](#business--strategy) + [Marketing](#marketing) → research, sizing, dashboards |
+| 📊 **Data Analyst & BI Developer** | [Data Analytics & BI](#data-analytics--business-intelligence) → `/eda` `/sql-optimize` `/viz-brief` `/dashboard-audit` |
+| ⚙️ **Automation Engineer** | [Automation Engineer](#automation-engineer--ai-agents) → `/agent-blueprint` `/biz-automate` `/agent-deploy` |
 | 📈 **Quant / Trader** | [Trading & Finance](#trading--finance) → neural trader pipeline |
 
 ---
@@ -33,6 +34,8 @@ Find your role and go straight to what's relevant to you.
    - [Backend & API](#backend--api)
    - [Database & Supabase](#database--supabase)
    - [Trading & Finance](#trading--finance)
+   - [Data Analytics & Business Intelligence](#data-analytics--business-intelligence)
+   - [Automation Engineer — AI Agents](#automation-engineer--ai-agents)
    - [Security](#security)
    - [Code Review & Quality](#code-review--quality)
    - [Documents & Reports](#documents--reports)
@@ -56,7 +59,7 @@ There are three types:
 | **Agents** | Specialized AI roles — a code reviewer, a market analyst, a security auditor | Claude spawns the right one, or you ask for it |
 | **Commands** | Slash shortcuts — `/tdd`, `/plan`, `/code-review` | Type them directly |
 
-**Important:** Not all 463 skills are active at the same time. They load on demand. Claude picks what's relevant to your request — or you can ask for a specific one explicitly.
+**Important:** Not all 483 skills are active at the same time. They load on demand. Claude picks what's relevant to your request — or you can ask for a specific one explicitly.
 
 **Always-on (no trigger needed):**
 - `ecc-rules/common/` → coding standards, security rules, testing requirements
@@ -351,6 +354,120 @@ Data → Market Analyst → Trading Strategist → Risk Analyst → Execute
 
 ---
 
+### Data Analytics & Business Intelligence
+
+For data analysts, BI developers, and business analysts who work with data, dashboards, and insights.
+
+> **New Data Pack** (4 skills, 3 agents, 4 commands — ECC quality):  
+> `power-bi` · `data-visualization` · `sql-analytics` · `data-analytics`
+
+| Task | Skill | Agent | Command |
+|------|-------|-------|---------|
+| **Exploratory data analysis (EDA)** | `data-analytics` | `data-analyst` | `/eda` |
+| **Power BI — DAX, Power Query, star schema** | `power-bi` | `data-analyst` | `/dashboard-audit` |
+| **SQL — window functions, CTEs, cohort, funnel** | `sql-analytics` | `sql-analyst` | `/sql-optimize` |
+| **Charts & visualizations (matplotlib, Plotly, Tableau)** | `data-visualization` | `data-viz-expert` | `/viz-brief` |
+| **Dashboard design & audit** | `data-visualization` + `power-bi` | `data-viz-expert` | `/dashboard-audit` |
+| **Cohort & retention analysis** | `sql-analytics` | `sql-analyst` | `/sql-optimize` |
+| **Funnel analysis** | `sql-analytics` + `data-analytics` | `data-analyst` | `/eda` |
+| **dbt models (staging → mart)** | `sql-analytics` | `sql-analyst` | — |
+| **Market sizing & research** | `market-research` (ECC) | `market-researcher` | `/market-analysis` |
+| **Business metrics (MRR, CAC, LTV, churn)** | `data-analytics` | `business-analyst` | `/eda` |
+| **Competitor intelligence** | `competitive-platform-analysis` (ECC) | `market-researcher` | — |
+
+**Data workflow examples:**
+
+```
+"analyze this dataset and find the key insights"
+→ data-analyst agent + data-analytics skill + /eda
+
+"optimize this SQL query, it's slow"
+→ sql-analyst agent + sql-analytics skill + /sql-optimize
+
+"build a cohort retention table by month"
+→ sql-analyst + sql-analytics (Mode 3: cohort analysis)
+
+"create a funnel chart from this data"
+→ data-viz-expert + data-visualization + /viz-brief
+
+"audit my Power BI dashboard"
+→ data-analyst + power-bi skill + /dashboard-audit
+
+"write a DAX measure for YTD revenue vs same period last year"
+→ power-bi skill (Mode 2: time intelligence patterns)
+
+"build an interactive Plotly dashboard"
+→ data-viz-expert + data-visualization (Mode 2: Plotly interactive)
+```
+
+---
+
+### Automation Engineer — AI Agents
+
+For automation engineers and AI builders who want to automate business processes, build agents, and replace manual work with AI systems.
+
+> **New Automation Pack** (6 skills, 4 agents, 5 commands — ECC quality):  
+> `agent-architecture` · `multi-agent-systems` · `n8n-automation` · `model-selection` · `agent-deployment` · `business-automation`
+
+| Task | Skill | Agent | Command |
+|------|-------|-------|---------|
+| **Design an agent from scratch** | `agent-architecture` | `agent-builder` | `/agent-blueprint` |
+| **Multi-agent systems (LangGraph / CrewAI / Claude SDK)** | `multi-agent-systems` | `automation-architect` | `/agent-blueprint` |
+| **N8N workflow automation** | `n8n-automation` | `n8n-specialist` | `/biz-automate` |
+| **Pick the right AI model** | `model-selection` | `model-advisor` | `/model-compare` |
+| **Deploy agent to production** | `agent-deployment` | `agent-builder` | `/agent-deploy` |
+| **Automate a business process** | `business-automation` + `n8n-automation` | `automation-architect` | `/biz-automate` |
+| **Audit automation opportunities** | `business-automation` | `automation-architect` | `/automation-audit` |
+| **Cost comparison across models** | `model-selection` | `model-advisor` | `/model-compare` |
+| **"Company of 100 agents" setup** | `business-automation` + `multi-agent-systems` | `automation-architect` | `/biz-automate` |
+| **Docker + CI/CD for agents** | `agent-deployment` | `agent-builder` | `/agent-deploy` |
+| **Memory systems for agents** | `agent-architecture` | `agent-builder` | — |
+
+**Automation workflow examples:**
+
+```
+"I want to automate our lead follow-up process"
+→ automation-architect + n8n-automation + /biz-automate
+
+"design an AI agent that reads emails and creates tasks"
+→ agent-builder + agent-architecture (ReAct pattern) + /agent-blueprint
+
+"build a multi-agent team: researcher + analyst + writer"
+→ automation-architect + multi-agent-systems (CrewAI) + /agent-blueprint
+
+"which model should I use? Claude vs GPT-4o vs Gemini"
+→ model-advisor + model-selection + /model-compare
+
+"deploy my Python agent to Railway"
+→ agent-builder + agent-deployment + /agent-deploy
+
+"find all manual processes in my business that can be automated"
+→ automation-architect + business-automation + /automation-audit
+
+"build N8N workflow for weekly report generation"
+→ n8n-specialist + n8n-automation (Mode 2: scheduled report) + /biz-automate
+```
+
+**The "Company of 100 Agents" model:**
+
+```
+CEO Agent (orchestrator)
+├── Marketing Department
+│   ├── Content Agent — writes content, posts social
+│   ├── Ads Agent — monitors campaigns, adjusts bids
+│   └── Analytics Agent — reports weekly metrics
+├── Sales Department
+│   ├── Lead Research Agent — enriches leads
+│   ├── Outreach Agent — sends personalized emails
+│   └── CRM Agent — updates deal stages
+└── Operations Department
+    ├── Customer Support Agent — handles tier 1 tickets
+    ├── Report Agent — generates weekly reports
+    └── Monitor Agent — alerts on anomalies
+```
+
+---
+
 ### Security
 
 | Task | Skill | Agent | Command |
@@ -461,6 +578,34 @@ Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operat
 | `deep-research` (ECC) | Multi-source web synthesis with citations |
 | `marketing-campaign` (ECC) | End-to-end launch campaign |
 | `finance-billing-ops` (ECC) | Revenue/billing truth workflow, MRR reconciliation |
+
+---
+
+### 📊 Data Analytics Pack (4 skills)
+
+ECC-quality data skills with Skill Stack, Guardrails, Operating Modes (with real code), and Quality Gates.
+
+| Skill | What It Does |
+|-------|-------------|
+| `power-bi` | Star schema design, DAX patterns library (MTD/QTD/YTD/MoM/YoY/churn/Pareto), Power Query ETL, report design rules, calculated columns vs measures |
+| `data-visualization` | Chart selection framework, matplotlib/seaborn professional styles, Plotly interactive dashboards, Tableau LOD expressions, Power BI visual selection, 5-second test principle |
+| `sql-analytics` | Window functions (ROW_NUMBER/LAG/LEAD/FIRST_VALUE), CTEs, cohort analysis, funnel SQL, dbt models (staging→mart), EXPLAIN ANALYZE query optimization |
+| `data-analytics` | CSV/spreadsheet analysis, KPI library (MRR/CAC/LTV/churn/NPS), statistical summaries, trend detection, executive insight summary |
+
+---
+
+### ⚙️ Automation Engineer Pack (6 skills)
+
+Deep, production-grade automation skills from zero to deployed multi-agent company.
+
+| Skill | What It Does |
+|-------|-------------|
+| `agent-architecture` | ReAct / Plan-and-Execute / Reflexion patterns, memory systems (Buffer/Summary/Vector/Entity), tool design rules, Claude SDK production agent loop, agent evaluation |
+| `multi-agent-systems` | LangGraph (StateGraph + conditional routing), CrewAI (role-based teams), Claude Multi-Agent (orchestrator + workers), communication patterns, "Company of 10" template with model tiers |
+| `n8n-automation` | Core node types, 4 workflow templates (scheduled report / webhook+AI / lead enrichment / AI agent), Code Node JS, error handling, self-hosted Docker deployment |
+| `model-selection` | Full pricing matrix (Claude Sonnet/Haiku/Opus, GPT-4o/mini, Gemini 2.0 Flash/2.5 Pro, Llama 3.3, DeepSeek V3, Qwen2.5), use-case → model mapping, cost calculator, multi-agent tiered strategy, OSS vs paid breakeven, fine-tuning decision |
+| `agent-deployment` | Production Dockerfile + docker-compose (FastAPI + Redis), Railway/Render/Fly.io/VPS CLI commands, rate limiting, structlog + Prometheus monitoring, GitHub Actions CI/CD |
+| `business-automation` | Automation Readiness Scoring (5 dimensions), department agent templates (Marketing/Sales/Ops), N8N workflow templates, ROI calculator, Phase 1→2→3 implementation roadmap |
 
 ---
 
@@ -648,6 +793,25 @@ Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operat
 | `goal-planner` | GOAP — action planning with A* |
 | `workflow-specialist` | Workflow automation |
 
+### 📊 Data Analytics Agents
+
+| Agent | When to Use |
+|-------|-------------|
+| `data-analyst` | EDA, KPI analysis, dashboard audit, Power BI guidance, business metrics (MRR/CAC/LTV) |
+| `data-viz-expert` | Chart selection, matplotlib/Plotly/Tableau visualization, dashboard design principles |
+| `sql-analyst` | SQL optimization, window functions, cohort/funnel queries, dbt models, query performance |
+
+### ⚙️ Automation Engineer Agents
+
+| Agent | When to Use |
+|-------|-------------|
+| `automation-architect` | Business process automation, "company of 100 agents" design, ROI assessment, automation roadmap |
+| `agent-builder` | Build agents from scratch (ReAct/Plan-Execute/Reflexion), tool design, Claude SDK implementation, production deployment |
+| `n8n-specialist` | N8N workflow design, node configuration, AI agent workflows, error handling, self-hosting setup |
+| `model-advisor` | Model selection (Claude vs GPT-4o vs Gemini vs OSS), cost projections, multi-agent tiered strategy, fine-tuning assessment |
+
+---
+
 ### 📣 Marketing Agents
 
 | Agent | When to Use |
@@ -692,6 +856,29 @@ Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operat
 ---
 
 ## 7. Complete Command Reference
+
+### 📊 Data Analytics Commands
+
+| Command | Function |
+|---------|---------|
+| `/eda` | Full exploratory data analysis — data quality audit → statistical summary → distributions → correlations → time series → anomaly detection → business insight summary |
+| `/viz-brief` | Chart selection + complete Python code (matplotlib or Plotly) + design notes + accessible color palette |
+| `/sql-optimize` | Plain English translation → issues found → rewritten query → EXPLAIN ANALYZE → before/after performance comparison |
+| `/dashboard-audit` | Dashboard audit across 4 dimensions: design quality / data accuracy / business usefulness / Power BI specifics |
+
+---
+
+### ⚙️ Automation Engineer Commands
+
+| Command | Function |
+|---------|---------|
+| `/agent-blueprint` | Complete agent spec — brain/memory/tools/planning/error handling/evaluation/test cases + production Python code |
+| `/automation-audit` | Process inventory → readiness scoring (5 dimensions) → ROI estimate → automation roadmap → agent team design → risk register |
+| `/model-compare` | Comparison table (cost/context/speed/strengths) + monthly cost projection + recommendation + open source option + fine-tuning assessment |
+| `/agent-deploy` | Dockerfile + docker-compose + platform CLI commands (Railway/Render/Fly.io/VPS) + security checklist + monitoring setup + GitHub Actions CI/CD |
+| `/biz-automate` | Full process map → automation design → N8N workflow or Python agent code → ROI summary → go-live checklist |
+
+---
 
 ### 📣 Marketing Commands
 
@@ -824,6 +1011,25 @@ Step 4: "calculate risk for 10% of portfolio"  → risk-analyst agent
 cd ~/ai-dotfiles   # or wherever you cloned it
 git pull
 .\setup.ps1        # re-run to apply any new changes
+```
+
+### Data Analytics Quick Start
+
+```
+Step 1: "analyze this CSV"                   → /eda (full EDA report)
+Step 2: "optimize the SQL query for this"    → /sql-optimize
+Step 3: "visualize the cohort retention"     → /viz-brief
+Step 4: "audit my Power BI dashboard"        → /dashboard-audit
+```
+
+### Automation Quick Start
+
+```
+Step 1: "audit which processes I can automate"      → /automation-audit
+Step 2: "compare models for this use case"           → /model-compare
+Step 3: "design the agent that handles [process]"   → /agent-blueprint
+Step 4: "build the N8N workflow"                     → /biz-automate
+Step 5: "deploy to production"                       → /agent-deploy
 ```
 
 ### Create Your Own Skill
