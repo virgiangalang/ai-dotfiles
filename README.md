@@ -11,7 +11,7 @@
 
 <br/>
 
-[![Skills](https://img.shields.io/badge/Skills-480+-FF6B6B?style=flat-square)](GUIDE.md)
+[![Skills](https://img.shields.io/badge/Skills-484+-FF6B6B?style=flat-square)](GUIDE.md)
 [![Agents](https://img.shields.io/badge/Agents-145+-4ECDC4?style=flat-square)](GUIDE.md#complete-agent-reference)
 [![Commands](https://img.shields.io/badge/Commands-165+-45B7D1?style=flat-square)](GUIDE.md#complete-command-reference)
 [![Platforms](https://img.shields.io/badge/Platforms-4-gold?style=flat-square)](#installation)
@@ -20,7 +20,7 @@
 
 ### Your AI coding agent is smart. This makes it *dangerous.*
 
-*480+ skills. 145+ specialist agents. 165+ slash commands.*  
+*484+ skills. 145+ specialist agents. 165+ slash commands.*  
 *One setup. Works with Claude Code, Cursor, Windsurf, and Codex.*
 
 <br/>
@@ -143,18 +143,19 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 <td width="50%" valign="top">
 
 ### 📊 Data Analyst & BI Developer
-*SQL · Python · Power BI · Tableau · Research · Market Sizing*
+*SQL · Python · Power BI · Tableau · Prediction · Research · Market Sizing*
 
 **You'll use most:**
 - `data-analyst`, `data-viz-expert`, `sql-analyst`, `market-researcher`, `business-analyst`
 - `/eda`, `/sql-optimize`, `/viz-brief`, `/dashboard-audit`, `/market-analysis`, `/growth-audit`
-- Skills: `data-analytics`, `sql-analytics`, `power-bi`, `data-visualization`, `market-research`, `growth-metrics`
+- Skills: `data-analytics`, `sql-analytics`, `power-bi`, `data-visualization`, `predictive-analytics`, `market-research`, `growth-metrics`
 
 **What this gives you:**
 - EDA on any dataset in minutes — full statistical summary + insight brief
 - Senior-level SQL: window functions, cohort analysis, funnel queries, dbt
 - Power BI: star schema + full DAX patterns (time intelligence, ranking, running totals)
 - Production charts (matplotlib/plotly/seaborn) with insight-first titles
+- **Predict anything from historical data** — revenue, customers, AOV, hiring, churn — with confidence intervals, Monte Carlo simulation, and 3 scenarios
 - Market sizing (TAM/SAM/SOM), competitor research, growth metrics (CAC/LTV/funnel)
 
 **Start here:** [Data Analytics →](GUIDE.md#data-analytics--business-intelligence) + [Business & Strategy →](GUIDE.md#business--strategy)
@@ -293,7 +294,7 @@ claude mcp add ruflo -- npx ruflo@latest mcp start
 | 🎨 **Custom (Galang's Picks)** | 14 | — | — | Supabase, Vercel, mobile RN, Indonesian payment gateways, doc generation |
 | 📊 **Business Pack** | 10 | 8 | 10 | Strategy · OKR · pitch · market research · solution design · edutech |
 | 📣 **Marketing Pack** | 8 | 8 | 10 | Ads (Google/Meta/TikTok) · brand · content · growth metrics · SEO · email |
-| 🔢 **Data Analytics Pack** | 4 | 3 | 4 | Power BI · Tableau · SQL analytics · data visualization · EDA · dbt |
+| 🔢 **Data Analytics Pack** | 5 | 3 | 4 | Power BI · SQL analytics · data visualization · EDA · **prediction & forecasting** |
 | 🤖 **Automation Engineer Pack** | 6 | 4 | 5 | AI agent build · multi-agent · N8N · model selection · deploy · biz automation |
 | ⚡ **ECC** (Hackathon Winner) | 271 | 67 | 92 | Always-on rules: coding standards / TypeScript / React |
 | 🔁 **Ruflo** (35 plugins) | 129 | 56 | 49 | Neural trader · RAG memory · browser automation |
@@ -301,7 +302,7 @@ claude mcp add ruflo -- npx ruflo@latest mcp start
 | 🧠 **Claude-Mem** | 17 | — | — | Codebase memory · 36 cognitive modes |
 | 🤖 **Anthropic Official** | 10 | 14 | 14 | 18 hooks |
 | | | | | |
-| **GRAND TOTAL** | **~483** | **~160** | **~184** | |
+| **GRAND TOTAL** | **~484** | **~160** | **~184** | |
 
 ---
 
@@ -482,16 +483,23 @@ backtest-engineer    → walk-forward validation + Monte Carlo simulation
 <summary><b>🔢 Data Analytics & Business Intelligence</b></summary>
 <br/>
 
-A full data team in your AI — from raw SQL to Power BI dashboards.
+A full data team in your AI — from raw CSV to predictions and dashboards.
 
 - **EDA in one command** — data quality audit, distributions, correlations, anomaly detection, business insight summary
 - **SQL at senior level** — window functions, CTEs, cohort analysis, funnel queries, dbt models for BigQuery/Snowflake/PostgreSQL
 - **Power BI** — star schema data model, DAX measures (time intelligence, ranking, running totals), Power Query (M), report design
 - **Visualization** — chart selection framework, matplotlib/seaborn/plotly production-quality code, Streamlit dashboards
 - **Tableau** — calculated fields, LOD expressions, dashboard actions
-- **Python data stack** — pandas, numpy, scipy, statsmodels, plotly, seaborn
+- **Prediction & Forecasting** — upload historical data and get forecasts with confidence intervals:
+  - Revenue forecasting (Prophet, 12–24 months forward)
+  - Customer & churn prediction (cohort survival curves)
+  - AOV / ARPU trend prediction (linear + gradient boosting)
+  - Hiring plan — predict when and how many to hire based on revenue growth
+  - Financial projection — P&L, runway, break-even (3 scenarios)
+  - Monte Carlo simulation — probability distributions, not just point estimates
+- **Python data stack** — pandas, numpy, scipy, sklearn, prophet, plotly, seaborn
 
-**Skills:** `data-analytics` `data-visualization` `sql-analytics` `power-bi`  
+**Skills:** `data-analytics` `data-visualization` `sql-analytics` `power-bi` `predictive-analytics`  
 **Agents:** `data-analyst` `data-viz-expert` `sql-analyst`  
 **Commands:** `/eda` `/viz-brief` `/sql-optimize` `/dashboard-audit`
 

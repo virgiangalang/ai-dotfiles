@@ -358,8 +358,8 @@ Data → Market Analyst → Trading Strategist → Risk Analyst → Execute
 
 For data analysts, BI developers, and business analysts who work with data, dashboards, and insights.
 
-> **New Data Pack** (4 skills, 3 agents, 4 commands — ECC quality):  
-> `power-bi` · `data-visualization` · `sql-analytics` · `data-analytics`
+> **New Data Pack** (5 skills, 3 agents, 4 commands — ECC quality):  
+> `power-bi` · `data-visualization` · `sql-analytics` · `data-analytics` · `predictive-analytics`
 
 | Task | Skill | Agent | Command |
 |------|-------|-------|---------|
@@ -374,6 +374,12 @@ For data analysts, BI developers, and business analysts who work with data, dash
 | **Market sizing & research** | `market-research` (ECC) | `market-researcher` | `/market-analysis` |
 | **Business metrics (MRR, CAC, LTV, churn)** | `data-analytics` | `business-analyst` | `/eda` |
 | **Competitor intelligence** | `competitive-platform-analysis` (ECC) | `market-researcher` | — |
+| **Revenue / MRR forecasting** | `predictive-analytics` | `data-analyst` | `/eda` |
+| **Customer growth & churn prediction** | `predictive-analytics` | `data-analyst` | `/eda` |
+| **AOV / ARPU trend prediction** | `predictive-analytics` | `data-analyst` | `/eda` |
+| **Hiring plan from revenue forecast** | `predictive-analytics` | `data-analyst` | — |
+| **Financial P&L projection + runway** | `predictive-analytics` | `data-analyst` | — |
+| **Monte Carlo scenario simulation** | `predictive-analytics` | `data-analyst` | — |
 
 **Data workflow examples:**
 
@@ -398,6 +404,24 @@ For data analysts, BI developers, and business analysts who work with data, dash
 
 "build an interactive Plotly dashboard"
 → data-viz-expert + data-visualization (Mode 2: Plotly interactive)
+
+"predict our revenue for the next 12 months"
+→ data-analyst + predictive-analytics (Mode 2: Prophet time series)
+
+"how many customers will we have in 6 months?"
+→ data-analyst + predictive-analytics (Mode 4: customer growth)
+
+"predict when we need to hire based on our growth"
+→ data-analyst + predictive-analytics (Mode 6: hiring plan)
+
+"give me best/base/worst case revenue scenario"
+→ data-analyst + predictive-analytics (Mode 7: Monte Carlo simulation)
+
+"project our P&L and runway for 24 months"
+→ data-analyst + predictive-analytics (Mode 3: financial projection)
+
+"predict AOV trend for next quarter"
+→ data-analyst + predictive-analytics (Mode 5: AOV prediction)
 ```
 
 ---
@@ -581,7 +605,7 @@ Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operat
 
 ---
 
-### 📊 Data Analytics Pack (4 skills)
+### 📊 Data Analytics Pack (5 skills)
 
 ECC-quality data skills with Skill Stack, Guardrails, Operating Modes (with real code), and Quality Gates.
 
@@ -591,6 +615,7 @@ ECC-quality data skills with Skill Stack, Guardrails, Operating Modes (with real
 | `data-visualization` | Chart selection framework, matplotlib/seaborn professional styles, Plotly interactive dashboards, Tableau LOD expressions, Power BI visual selection, 5-second test principle |
 | `sql-analytics` | Window functions (ROW_NUMBER/LAG/LEAD/FIRST_VALUE), CTEs, cohort analysis, funnel SQL, dbt models (staging→mart), EXPLAIN ANALYZE query optimization |
 | `data-analytics` | CSV/spreadsheet analysis, KPI library (MRR/CAC/LTV/churn/NPS), statistical summaries, trend detection, executive insight summary |
+| `predictive-analytics` | **Prediction from historical data** — revenue forecasting (Prophet), customer/churn prediction, AOV trend, financial P&L projection, hiring plan, Monte Carlo simulation. Upload CSV → get confidence intervals + 3 scenarios + actionable insight |
 
 ---
 
