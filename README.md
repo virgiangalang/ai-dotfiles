@@ -167,6 +167,31 @@ This repo changes that. Clone once, run setup, and your AI instantly gets:
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📈 Trader / Quant
+*Algo · Backtesting · Risk · Neural Strategies*
+
+**You'll use most:**
+- `market-analyst`, `trading-strategist`, `risk-analyst`, `backtest-engineer`
+- Skills: `trader-backtest`, `trader-risk`, `trader-signal`, `neural-train`
+- Full pipeline: regime detection → signal → risk gate → backtest
+
+**What this unlocks:**
+- Market regime classification (RSI, MACD, Bollinger, volume profile)
+- Neural strategy design (LSTM / Transformer models) via `npx neural-trader`
+- Risk management: VaR/CVaR, Kelly Criterion, position sizing
+- Walk-forward validation + Monte Carlo simulation
+- The 4 agents work as a **pipeline** — each passes output to the next
+
+**Start here:** [Trading & Finance →](#-trading--quantitative-finance-neural-trader)
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
 </table>
 
 <br/>
@@ -382,21 +407,47 @@ For founders, CEOs, executives, consultants, and FDEs — the full business inte
 <summary><b>📈 Trading & Quantitative Finance (Neural Trader)</b></summary>
 <br/>
 
-A complete pipeline from data ingestion to backtesting:
+This is not a single tool. It's a **4-agent pipeline** that mirrors how a real quant desk operates — each agent has one job and passes its output to the next.
 
 ```
-Market Data → Market Analyst → Trading Strategist → Risk Analyst → Backtest
+Market Data
+    ↓
+market-analyst       → detects regime (trending / ranging / volatile)
+    ↓ RegimeVerdict
+trading-strategist   → designs signal logic (LSTM / Transformer / rule-based)
+    ↓ SignalProposal[]
+risk-analyst         → gates every signal (VaR, CVaR, Kelly, drawdown limits)
+    ↓ RiskDecision
+backtest-engineer    → walk-forward validation + Monte Carlo simulation
+    ↓ Signed Promotion Candidate
 ```
 
-- Market regime detection (RSI, MACD, Bollinger Bands, volume profile)
-- Neural strategy design (LSTM / Transformer models)
-- Risk management (VaR/CVaR, Kelly Criterion, position sizing)
-- Walk-forward validation and Monte Carlo simulation
+**What each agent does:**
 
-**Agents:** `market-analyst` `trading-strategist` `risk-analyst` `backtest-engineer`  
-**Skills:** `trader-backtest` `trader-risk` `trader-signal` `market-pattern` `neural-train`
+| Agent | What It Does |
+|---|---|
+| `market-analyst` | RSI, MACD, Bollinger Bands, volume profile → classifies market regime |
+| `trading-strategist` | Designs strategy using LSTM/Transformer models via `npx neural-trader` |
+| `risk-analyst` | VaR/CVaR, Kelly Criterion, position sizing — BLOCKS bad signals before they reach backtest |
+| `backtest-engineer` | Walk-forward validation, Monte Carlo sim, parameter optimization |
 
-> ⚠️ Analysis and backtesting only. Always verify results before live trading.
+**How to use it:**
+
+```
+"analyze BTC market conditions and detect current regime"
+→ market-analyst activates, classifies regime, passes to trading-strategist
+
+"design an RSI crossover strategy for current regime"
+→ trading-strategist designs signal logic, sends SignalProposal to risk-analyst
+
+"backtest this strategy with walk-forward validation"
+→ backtest-engineer runs via npx neural-trader Rust/NAPI engine
+```
+
+**Skills:** `trader-backtest` · `trader-risk` · `trader-signal` · `market-pattern` · `neural-train`  
+**Agents:** `market-analyst` · `trading-strategist` · `risk-analyst` · `backtest-engineer`
+
+> ⚠️ These tools are for research and backtesting only. Past performance does not guarantee future results. Always verify before live trading.
 
 </details>
 
