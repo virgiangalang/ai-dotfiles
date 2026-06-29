@@ -1,9 +1,26 @@
 ---
 name: solution-design
-description: Load for Forward Deployed Engineer (FDE) and solution engineering work — translating client business problems into technical solutions, writing proposals, scoping implementations, and leading discovery workshops.
+description: Forward Deployed Engineer (FDE) and solution engineering — translating client business problems into technical solutions, proposals, implementation scoping, and discovery workshops. Orchestrates business-analyst for requirements, architect (ECC agent) for system design, and data-analytics for evidence gathering. The FDE skill stack: business understanding + technical depth + executive communication.
 ---
 
 # Solution Design (FDE / Solution Engineering)
+
+## Skill Stack
+
+- `business-analyst` agent — requirements elicitation, process mapping, gap analysis
+- `architect` (ECC agent) — system design, API contracts, module boundaries
+- `data-analytics` — when the solution involves data pipelines, reporting, or analytics
+- `stakeholder-comms` — when the proposal goes to C-level or board
+- `security-reviewer` (ECC agent) — before any solution involving user data, auth, or payments
+- `market-research` — when the solution design needs to account for competitive context
+
+## Guardrails
+
+- Never propose a solution without completing discovery first — the presenting problem is rarely the actual problem
+- A proposal without a "out of scope" section will be blamed for everything that goes wrong
+- Define success criteria before scoping work — if you can't measure it, you can't prove you solved it
+- The simplest solution that meets the requirements is always better than the elegant one
+- Clients often ask for features; your job is to understand the underlying job they're trying to do
 
 ## What FDE Does
 

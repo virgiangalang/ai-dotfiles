@@ -1,9 +1,27 @@
 ---
 name: market-research
-description: Load for market sizing (TAM/SAM/SOM), competitor analysis, customer discovery, jobs-to-be-done, and market entry research. For founders, PMs, consultants, and FDEs validating opportunities.
+description: Market sizing (TAM/SAM/SOM), competitor analysis, customer discovery, jobs-to-be-done, and market entry research. Orchestrates ECC's market-research, competitive-platform-analysis, and deep-research for evidence-grade output. For founders, PMs, consultants, and FDEs validating opportunities.
 ---
 
 # Market Research
+
+## Skill Stack
+
+- `market-research` (ECC) — evidence-first research with source attribution and decision-oriented summaries
+- `competitive-platform-analysis` (ECC) — defensible competitor set definition with positioning brief
+- `competitive-report-structure` (ECC) — decision-grade report assembly: landscape map, benchmarking matrix, white-space analysis
+- `deep-research` (ECC) — multi-source synthesis with citations when fresh web data is needed
+- `research-ops` (ECC) — orchestration layer when multiple research lanes run in parallel
+- `data-analytics` — when the research involves internal data (sales, usage, transactions)
+
+## Guardrails
+
+- Every important claim needs a source — label clearly: sourced fact vs. inference vs. estimate
+- Prefer recent data; call out anything older than 12 months
+- Do not assert TAM without at least one bottom-up sanity check
+- Separate primary evidence (interviews, surveys) from secondary (reports, press)
+- Include contrarian evidence — if the market looks attractive, explain what could make it fail
+- A market size number without a beachhead segment is not actionable — always name where to start
 
 ## Market Sizing: TAM / SAM / SOM
 

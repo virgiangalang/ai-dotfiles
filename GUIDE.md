@@ -11,6 +11,7 @@
 2. [Setup](#2-setup)
 3. [Skills, Agents & Commands — The Basics](#3-skills-agents--commands--the-basics)
 4. [Mapping by Use Case](#4-mapping-by-use-case)
+   - [Business & Strategy](#business--strategy)
    - [Web App (React / Vite / TypeScript)](#web-app-react--vite--typescript)
    - [Mobile App](#mobile-app)
    - [Backend & API](#backend--api)
@@ -115,6 +116,54 @@ Type slash commands directly in the chat:
 ---
 
 ## 4. Mapping by Use Case
+
+### Business & Strategy
+
+For founders, CEOs, executives, PMs, and consultants — business planning, analysis, and decision-making.
+
+> **ECC skills already installed** (deep, evidence-first quality):  
+> `market-research` · `competitive-platform-analysis` · `competitive-report-structure` · `product-lens` · `deep-research` · `marketing-campaign` · `finance-billing-ops`
+
+| Task | Skill | Agent | Command |
+|------|-------|-------|---------|
+| **Market research & sizing** | `market-research` (ECC) | `market-researcher` | `/market-analysis` |
+| **Competitor analysis** | `competitive-platform-analysis` (ECC) | `market-researcher` | — |
+| **Business strategy (Porter's, Blue Ocean, Ansoff)** | `business-strategy` | `ceo-advisor` | `/biz-plan` |
+| **Business Model Canvas** | `business-model-canvas` | `ceo-advisor` | `/bmc` |
+| **OKR planning & review** | `okr-planning` | `okr-coach` | `/okr-workshop` |
+| **Product roadmap & PRD** | `product-strategy` | `product-manager` | `/product-roadmap` |
+| **Decision-making (RICE, pre-mortem, matrix)** | `decision-framework` | `ceo-advisor` | `/decision-matrix` |
+| **Investor pitch deck** | `pitch-deck` | `pitch-coach` | `/pitch-deck` |
+| **CSV / data analytics** | `data-analytics` | `business-analyst` | — |
+| **Requirements & process mapping** | `solution-design` | `business-analyst` | — |
+| **Executive briefs & board updates** | `stakeholder-comms` | `ceo-advisor` | `/exec-brief` |
+| **Technical solution proposal** | `solution-design` | `solution-engineer` | `/solution-proposal` |
+| **JTBD analysis** | — | `product-manager` | `/jtbd` |
+| **Edtech curriculum & LMS** | `edutech-strategy` | `edutech-specialist` | — |
+
+**Business workflow examples:**
+
+```
+"size the market for my product idea"
+→ market-researcher agent + market-research (ECC) skill
+
+"analyze our top 3 competitors"
+→ competitive-platform-analysis (ECC) → competitive-report-structure (ECC)
+
+"help me build our Q3 OKRs"
+→ okr-coach agent + okr-planning skill + /okr-workshop
+
+"review my investor pitch"
+→ pitch-coach agent + pitch-deck skill
+
+"analyze this CSV and give me the key metrics"
+→ data-analytics skill + business-analyst agent
+
+"build a strategic plan for entering a new market"
+→ ceo-advisor agent + business-strategy + market-research (ECC)
+```
+
+---
 
 ### Web App (React / Vite / TypeScript)
 
@@ -301,6 +350,38 @@ Data → Market Analyst → Trading Strategist → Risk Analyst → Execute
 
 ## 5. Complete Skill Reference
 
+### 💼 Business Pack Skills (11 skills)
+
+Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operating Modes, and Quality Gates.
+
+| Skill | What It Does |
+|-------|-------------|
+| `business-strategy` | Porter's Five Forces, Blue Ocean, Ansoff Matrix — strategic analysis with quality gate |
+| `data-analytics` | CSV/spreadsheet analysis, KPI library (MRR/CAC/LTV/churn), trend detection, executive summary |
+| `market-research` | TAM/SAM/SOM, customer discovery — chains to ECC's `market-research` (ECC) |
+| `decision-framework` | RICE, ICE, decision matrix, pre-mortem, first principles — structured decision-making |
+| `product-strategy` | PRD, roadmap, PMF — chains to `product-lens` (ECC) for problem validation |
+| `okr-planning` | OKR design, cascade, workshop agenda, scoring — with data-backed baselines |
+| `pitch-deck` | 10-slide structure, narrative arc, investor Q&A — chains to `market-research` (ECC) |
+| `business-model-canvas` | 9-block BMC, unit economics, revenue model — with quality gate |
+| `stakeholder-comms` | Executive brief, board update, investor update, change comms |
+| `solution-design` | FDE discovery framework, technical proposals, implementation scoping |
+| `edutech-strategy` | Bloom's Taxonomy, backward design, LMS selection, Indonesia GTM |
+
+**ECC Business Skills (already included in this repo):**
+
+| Skill | What It Does |
+|-------|-------------|
+| `market-research` (ECC) | Evidence-first market research — quality gate, source requirements, TAM/SAM/SOM |
+| `competitive-platform-analysis` (ECC) | Three-skill competitive pipeline with positioning brief |
+| `competitive-report-structure` (ECC) | Decision-grade competitor report assembly |
+| `product-lens` (ECC) | Validates the "why" before any PRD — founder diagnostic |
+| `deep-research` (ECC) | Multi-source web synthesis with citations |
+| `marketing-campaign` (ECC) | End-to-end launch campaign |
+| `finance-billing-ops` (ECC) | Revenue/billing truth workflow, MRR reconciliation |
+
+---
+
 ### 🎨 Custom Skills (Galang's Curated — 14 skills)
 
 | Skill | Description |
@@ -485,6 +566,19 @@ Data → Market Analyst → Trading Strategist → Risk Analyst → Execute
 | `goal-planner` | GOAP — action planning with A* |
 | `workflow-specialist` | Workflow automation |
 
+### 💼 Business & Strategy Agents
+
+| Agent | When to Use |
+|-------|-------------|
+| `ceo-advisor` | Strategic decisions, competitive positioning, fundraising, board prep |
+| `product-manager` | PRD, roadmap prioritization, feature discovery, OKR alignment |
+| `business-analyst` | Requirements gathering, process mapping, gap analysis, specifications |
+| `solution-engineer` | Client discovery, technical proposals, FDE engagements, scoping |
+| `market-researcher` | Market sizing, competitor intelligence, customer insight synthesis |
+| `pitch-coach` | Investor deck review, presentation prep, demo day coaching |
+| `okr-coach` | OKR drafting, mid-quarter review, end-of-quarter retrospective |
+| `edutech-specialist` | Curriculum design, LMS evaluation, edtech product strategy |
+
 ### 📱 Other Specialists
 
 | Agent | Function |
@@ -503,6 +597,23 @@ Data → Market Analyst → Trading Strategist → Risk Analyst → Execute
 ---
 
 ## 7. Complete Command Reference
+
+### 💼 Business Commands
+
+| Command | Function |
+|---------|---------|
+| `/biz-plan` | Full business plan — market, model, strategy, financials |
+| `/market-analysis` | Market research + sizing + competitor landscape |
+| `/okr-workshop` | Facilitate OKR setting session |
+| `/pitch-deck` | Build or review an investor pitch deck |
+| `/decision-matrix` | Structured decision with weighted criteria |
+| `/solution-proposal` | Technical solution proposal for a client |
+| `/product-roadmap` | Build or review a product roadmap |
+| `/exec-brief` | Executive one-pager for stakeholders |
+| `/bmc` | Build a Business Model Canvas |
+| `/jtbd` | Jobs to Be Done analysis |
+
+---
 
 ### ECC Commands
 

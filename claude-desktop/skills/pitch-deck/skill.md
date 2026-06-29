@@ -1,9 +1,26 @@
 ---
 name: pitch-deck
-description: Load for creating investor pitch decks, board presentations, stakeholder proposals, or demo day pitches. Covers slide structure, narrative arc, common investor questions, and what to leave out.
+description: Investor pitch decks, board presentations, demo day pitches, and stakeholder proposals. Uses market-research (ECC) for evidence-grade market sizing, competitive-report-structure for competitor slides, and data-analytics for traction slides. Includes slide-by-slide content structure, narrative arc, investor Q&A prep, and quality gates.
 ---
 
 # Pitch Deck
+
+## Skill Stack
+
+- `market-research` (ECC) — evidence-grade TAM/SAM/SOM, competitor analysis with sources
+- `competitive-platform-analysis` (ECC) — defensible competitor set before building the competition slide
+- `data-analytics` — traction metrics, unit economics calculation, growth rate validation
+- `business-model-canvas` — business model slide logic and revenue model clarity
+- `stakeholder-comms` — when the deck is for board or partners rather than investors
+
+## Guardrails
+
+- Do not build the market size slide without at least one bottom-up calculation alongside the top-down number
+- Never say "we have no competitors" — this is a red flag, not a strength
+- Traction slide requires real numbers — do not use "strong early signals" or similar vague language
+- The team slide must answer "why you" not just "who you are"
+- A deck longer than 15 slides for seed stage signals lack of focus — push back and cut
+- Every claim that can be sourced must be sourced — investors verify
 
 ## The Core Principle
 

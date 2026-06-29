@@ -1,9 +1,36 @@
 ---
 name: business-model-canvas
-description: Load for mapping or redesigning a business model using the Business Model Canvas (BMC). Covers all 9 blocks, common revenue models, and unit economics basics.
+description: Business Model Canvas (BMC) design, stress-testing, and iteration. Pairs with market-research (ECC) for customer segment validation, data-analytics for unit economics calculation, and pitch-deck when the BMC becomes investor-facing. Includes all 9 blocks, revenue model comparison, unit economics formulas, and quality gate.
 ---
 
 # Business Model Canvas
+
+## Skill Stack
+
+- `market-research` (ECC) — validate customer segments with evidence before filling in the BMC; run TAM/SAM/SOM
+- `data-analytics` — calculate unit economics (CAC, LTV, payback, gross margin) from real data
+- `pitch-deck` — when the BMC needs to be communicated to investors or stakeholders
+- `decision-framework` — when choosing between competing revenue models or partnership strategies
+- `competitive-platform-analysis` (ECC) — understand competitor business models before designing yours
+
+## Guardrails
+
+- Do not fill in "Revenue Streams" without first answering: what would a customer actually pay for, and have you validated this?
+- Unit economics (CAC, LTV, payback) must be calculated, not assumed — use `data-analytics` for this
+- A BMC with empty "Customer Relationships" or "Channels" blocks is incomplete — these are where most startups fail
+- Never describe the Value Proposition as features — describe it as outcomes for the customer
+- The BMC is a hypothesis map, not a business plan — every block is an assumption to be validated, not a fact
+- If the Value Proposition block can't be written in 2 sentences, the product's purpose is unclear
+
+## Quality Gate
+
+Before presenting a BMC as complete:
+- [ ] Every block has at least one entry (none left blank)
+- [ ] Value Proposition uses the "We help [X] [do Y] by [Z], unlike [alternative]" format
+- [ ] Revenue Streams match what customers said they would pay for (cited research or test)
+- [ ] Unit economics filled in (even rough estimates with assumptions stated)
+- [ ] Riskiest assumptions identified and listed separately
+- [ ] At least one "what would kill this model" scenario documented
 
 ## The 9 Blocks
 

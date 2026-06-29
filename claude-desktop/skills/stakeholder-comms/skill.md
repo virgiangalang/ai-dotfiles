@@ -1,9 +1,24 @@
 ---
 name: stakeholder-comms
-description: Load for writing executive briefings, board updates, status reports, change management communications, and stakeholder alignment documents. For CEOs, PMs, FDEs, and consultants.
+description: Executive briefings, board updates, investor updates, status reports, and change management communication. Pairs with data-analytics when metrics need to be included, and marketing-campaign (ECC) when external communication is involved. For CEOs, PMs, FDEs, and consultants communicating at executive level.
 ---
 
 # Stakeholder Communication
+
+## Skill Stack
+
+- `data-analytics` — when the brief must include metrics, trends, or data-backed findings
+- `marketing-campaign` (ECC) — when communication is external (press, customer, public)
+- `business-strategy` — when the communication involves strategic decisions or direction changes
+- `pitch-deck` — when the communication is to investors or requires a presentation format
+
+## Guardrails
+
+- The audience's job determines the format — a board member and an engineer need different documents from the same situation
+- Lead with the decision needed, not the background — executives read the first paragraph and skim the rest
+- Bad news must be communicated directly — burying difficult information destroys trust when reality surfaces
+- Every status report must have: owner, date, clear next step — three fields that prevent ambiguity
+- Never use passive voice to avoid accountability ("it was decided" → "I decided" / "[Name] decided")
 
 ## The Core Rule
 

@@ -1,9 +1,37 @@
 ---
 name: edutech-strategy
-description: Load for educational technology product strategy, curriculum design, LMS selection, learning outcomes, student engagement, and edtech go-to-market. Bonus skill for founders and PMs in the edtech space.
+description: Edtech product strategy, curriculum design, LMS selection, learning outcomes, and go-to-market for Indonesia and Southeast Asia. Pairs with market-research (ECC) for segment validation, data-analytics for cohort retention and completion tracking, and business-model-canvas for revenue model design. Includes Bloom's Taxonomy, backward design, engagement framework, and quality gate.
 ---
 
 # Edtech Strategy
+
+## Skill Stack
+
+- `market-research` (ECC) — validate target learner segment, willingness to pay, and competitor landscape before designing curriculum
+- `data-analytics` — track cohort retention, completion rates, assessment pass rates, and NPS trends
+- `business-model-canvas` — design and stress-test the edtech revenue model (subscription, B2B, bootcamp, marketplace)
+- `product-strategy` — roadmap and PMF validation for edtech products; run `product-lens` before speccing features
+- `stakeholder-comms` — when communicating to institutional buyers (schools, HR directors, government)
+- `marketing-campaign` (ECC) — go-to-market campaigns for B2C learner acquisition
+
+## Guardrails
+
+- Do not design curriculum without first defining learning outcomes using Bloom's Taxonomy — "learning to learn" is not an outcome
+- Buyer ≠ User in edtech: always map the purchase decision (institution, parent, employer) separately from the user experience (student, employee) — designing for the wrong person kills both
+- Completion rate benchmarks: <30% is a red flag for async courses, >60% requires active intervention design — know your baseline before claiming success
+- Never position an edtech product around "access to content" as the primary value — content is commodity; outcomes, accountability, and community are the moat
+- Indonesia-specific: mobile-first is non-negotiable (>80% of learners use phones), Bahasa Indonesia content is a significant competitive moat vs. global players
+- Kartu Prakerja is the single highest-leverage distribution channel for consumer upskilling in Indonesia — if this applies to your product, understand the approval process before anything else
+
+## Quality Gate
+
+Before shipping an edtech feature or go-to-market plan:
+- [ ] Learning outcomes written using Bloom's Taxonomy action verbs (not "students will understand X")
+- [ ] Curriculum designed backward from outcomes (Step 1: outcomes → Step 2: evidence → Step 3: activities)
+- [ ] Engagement interventions mapped to each dropout-risk moment (Day 1, Week 1, completion)
+- [ ] Key metrics defined: completion rate, D7 retention, NPS, outcome achievement
+- [ ] Revenue model validated against unit economics (CAC, LTV, payback period)
+- [ ] Mobile experience verified (if Indonesia market)
 
 ## The Edtech Market Reality
 

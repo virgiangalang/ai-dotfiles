@@ -1,9 +1,26 @@
 ---
 name: okr-planning
-description: Load for setting, structuring, and reviewing OKRs at company, team, or individual level. Covers best practices, common mistakes, check-in cadence, and scoring.
+description: OKR design, cascade, and quarterly review for company, team, and individual levels. Pairs with product-strategy to align roadmap initiatives to OKRs, data-analytics to validate KR baselines and targets, and decision-framework for resource allocation decisions. Includes workshop agenda, scoring system, and quality gate.
 ---
 
 # OKR Planning
+
+## Skill Stack
+
+- `product-strategy` — align roadmap initiatives to OKRs before committing to build
+- `data-analytics` — validate current-state baselines and set realistic but ambitious KR targets from data
+- `decision-framework` — RICE scoring and effort-vs-impact matrix for prioritizing initiatives that feed OKRs
+- `business-strategy` — when OKRs need to align to a multi-year strategic direction or market bet
+- `stakeholder-comms` — OKR presentations to board, investors, or all-hands
+
+## Guardrails
+
+- Do not set KRs that are output-based ("ship feature X") — rewrite as outcomes ("increase metric Y by Z%")
+- Every KR must have a baseline value known at the time of setting — no KRs without current-state data
+- Max 3 Objectives per team, max 3 KRs per Objective — more means nothing is actually a priority
+- 100% attainment is a red flag — KRs should be set so that 70% feels like a real win
+- OKRs are not a performance review tool — never tie individual compensation directly to OKR scores
+- Run `data-analytics` before setting any KR target — targets set without data are guesses, not goals
 
 ## What OKRs Are (and Aren't)
 

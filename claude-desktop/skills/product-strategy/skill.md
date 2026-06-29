@@ -1,9 +1,26 @@
 ---
 name: product-strategy
-description: Load for product roadmap planning, PRD writing, feature prioritization, OKR alignment, and product-market fit validation. Useful for PMs, founders, and FDEs building products.
+description: Product roadmap, PRD writing, feature prioritization, OKR alignment, and PMF validation. Orchestrates ECC's product-lens for problem validation before speccing, product-capability for detailed requirements, and data-analytics for usage/retention analysis. For PMs, founders, and FDEs building products.
 ---
 
 # Product Strategy
+
+## Skill Stack
+
+- `product-lens` (ECC) — validate the "why" before any PRD work; runs the founder diagnostic
+- `product-capability` (ECC) — detailed capability contracts and PRD-to-SRS artifacts after validation
+- `data-analytics` — usage data, retention analysis, feature adoption — evidence for prioritization
+- `market-research` — customer discovery, JTBD, competitor benchmarking
+- `okr-planning` — align roadmap initiatives to OKRs before committing
+- `decision-framework` — RICE scoring and tradeoff analysis for prioritization
+
+## Guardrails
+
+- Run `product-lens` before writing any PRD — validate the problem first, spec second
+- A PRD without success metrics is incomplete — if you can't measure it, you can't prove it worked
+- "Users want this" without evidence is not a reason to build — cite user research or data
+- Roadmap must include what you're NOT building, and why — focus is the product manager's core job
+- Don't write detailed specs for things in the "Later" horizon — waste of time, things will change
 
 ## Product Strategy vs. Product Roadmap
 

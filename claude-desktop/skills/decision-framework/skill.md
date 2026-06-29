@@ -1,9 +1,24 @@
 ---
 name: decision-framework
-description: Load when evaluating options, making strategic choices, or structuring complex decisions. Covers RICE, decision matrix, pre-mortem, first principles, and reversibility analysis.
+description: Structured decision-making for complex choices — RICE, decision matrix, pre-mortem, first principles, reversibility analysis. Works with business-strategy for strategic decisions, product-strategy for product tradeoffs, and okr-planning for resource allocation decisions.
 ---
 
 # Decision Frameworks
+
+## Skill Stack
+
+- `business-strategy` — when the decision is about market entry, competitive response, or resource allocation
+- `product-strategy` — when the decision is about what to build or prioritize
+- `data-analytics` — when there is data that should inform the decision
+- `okr-planning` — when the decision affects team priorities or OKR commitments
+
+## Guardrails
+
+- Irreversible decisions deserve structured analysis; reversible decisions favor speed over process
+- A decision matrix with invented weights produces false precision — establish weights based on actual business constraints
+- The pre-mortem is not optional for decisions >$50K, >3 months of team time, or that affect customers directly
+- Document every decision with reasoning — the decision log prevents relitigating settled choices
+- "We'll figure it out later" is a decision — treat it as one
 
 ## Step 0 — Define the Decision
 
