@@ -30,30 +30,45 @@
 <tr>
 <td width="60%">
 
-**Galang** is an **Automation Engineer** and experienced **Coding Tutor** based in Southeast Asia.
+**Galang** is a **Forward Deployed Engineer (FDE)** — a rare combination of roles that lets him operate across the full spectrum of a business, from executive strategy to shipped product.
 
-- 🧑‍💻 **8 years** of software engineering — from backend systems to mobile apps
-- 👨‍🏫 **5 years** teaching coding — from absolute beginners to professional engineers
-- 🏢 Founder of an **IT Consultancy** helping businesses across Southeast Asia
-- 🤖 Specialist in **AI-powered development** and workflow automation
+In practice, this means he can simultaneously act as:
+
+- 🧭 **Product Manager** — understand the problem, define the solution, write the PRD
+- 🔧 **Solution Engineer** — design the architecture, scope the implementation, write the proposal
+- 💻 **Software Engineer** — build it himself, from backend to frontend to deployment
+
+**What this unlocks:**
+- He understands a company's business problem — not just the technical ticket
+- He speaks fluently to CEOs, product teams, and engineering teams in the same meeting
+- He can go from client discovery to a working product without handoff gaps
+
+**Background:**
+- 🧑‍💻 **8 years** of software engineering across web, mobile, and backend systems
+- 🏢 Founder of an **IT Consultancy** serving businesses across Southeast Asia
+- 🤖 Specialist in **AI-powered development**, workflow automation, and digital transformation
 - 🌏 Based in **Indonesia**, operating across Southeast Asia
 
-*This repo is the exact setup Galang uses every day — curated from the best AI tooling available, and shared openly for developers who want to level up their AI coding workflow.*
+*This repo is the exact AI setup Galang uses every day — curated from the best tooling available and shared with developers, founders, and operators who want to work at a higher level.*
 
 </td>
 <td width="40%" align="center">
 
 ```
- ╔═══════════════════╗
- ║  GALANG's STACK   ║
- ╠═══════════════════╣
- ║  Skills    → 463+ ║
- ║  Agents    → 137+ ║
- ║  Commands  → 155+ ║
- ║  Platforms →  4   ║
- ╚═══════════════════╝
+ ╔════════════════════════╗
+ ║    GALANG's ROLES      ║
+ ╠════════════════════════╣
+ ║  Product Manager    ✓  ║
+ ║  Solution Engineer  ✓  ║
+ ║  Software Engineer  ✓  ║
+ ╠════════════════════════╣
+ ║  Skills    → 480+      ║
+ ║  Agents    → 145+      ║
+ ║  Commands  → 165+      ║
+ ║  Platforms →  4        ║
+ ╚════════════════════════╝
 
- "Ship faster. Build smarter."
+ "From strategy to shipped."
 ```
 
 </td>
@@ -175,6 +190,28 @@ Market Data → Market Analyst → Trading Strategist → Risk Analyst → Backt
 **Agents:** `sparc-orchestrator` `plugin-developer` `autopilot-coordinator`  
 **Skills:** `agentic-engineering` `autonomous-loops` `sparc-spec`  
 **Commands:** `/create-plugin` `/sparc` `/autopilot`
+
+</details>
+
+<details>
+<summary><b>📊 Business Strategy & Executive Decision-Making</b></summary>
+<br/>
+
+For founders, CEOs, executives, consultants, and FDEs — the full business intelligence stack:
+
+- Strategic planning with SWOT, Blue Ocean, BCG Matrix, Porter's Five Forces
+- Market sizing (TAM/SAM/SOM), competitor analysis, customer discovery
+- OKR planning and facilitation — set, track, score, retrospect
+- Business Model Canvas — all 9 blocks + unit economics
+- Pitch deck creation — investor, board, demo day
+- Decision frameworks — RICE, decision matrix, pre-mortem, first principles
+- Executive briefings, board updates, investor updates
+- Solution design — FDE-style business problem → technical proposal
+- Edutech strategy — curriculum design, LMS, learning outcomes, student engagement
+
+**Skills:** `business-strategy` `decision-framework` `product-strategy` `okr-planning` `market-research` `pitch-deck` `business-model-canvas` `stakeholder-comms` `solution-design` `edutech-strategy`  
+**Agents:** `ceo-advisor` `product-manager` `business-analyst` `solution-engineer` `market-researcher` `pitch-coach` `okr-coach` `edutech-specialist`  
+**Commands:** `/biz-plan` `/market-analysis` `/okr-workshop` `/pitch-deck` `/decision-matrix` `/solution-proposal` `/product-roadmap` `/exec-brief` `/bmc` `/jtbd`
 
 </details>
 
@@ -303,13 +340,14 @@ claude mcp add ruflo -- npx ruflo@latest mcp start
 | Source | Skills | Agents | Commands | Bonus |
 |--------|:------:|:------:|:--------:|-------|
 | 🎨 **Custom (Galang's Picks)** | 14 | — | — | Supabase, Vercel, mobile RN, Indonesian payment gateways, doc generation |
+| 📊 **Business Pack** | 10 | 8 | 10 | Strategy, OKR, pitch, market research, solution design, edutech |
 | ⚡ **ECC** (Hackathon Winner) | 271 | 67 | 92 | Always-on rules: common / TypeScript / React |
 | 🔁 **Ruflo** (35 plugins) | 129 | 56 | 49 | Neural trader, RAG memory, browser automation |
 | 💪 **Superpowers** | 14 | — | — | TDD, brainstorming, git worktree |
 | 🧠 **Claude-Mem** | 17 | — | — | Codebase memory, 36 modes |
 | 🤖 **Anthropic Official** | 10 | 14 | 14 | 18 hooks |
 | | | | | |
-| **GRAND TOTAL** | **~455** | **~137** | **~155** | |
+| **GRAND TOTAL** | **~465** | **~145** | **~165** | |
 
 ---
 
@@ -389,8 +427,8 @@ ai-dotfiles/
 ---
 
 **Built by Galang**  
-*Automation Engineer · Coding Tutor · IT Consultant Founder*  
-*8 Years of Engineering · 5 Years of Teaching · Southeast Asia*
+*Forward Deployed Engineer · Product Manager · Solution Engineer · Software Engineer*  
+*IT Consultant Founder · 8 Years Engineering · Southeast Asia*
 
 <br/>
 

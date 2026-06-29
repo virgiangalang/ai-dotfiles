@@ -42,7 +42,23 @@ if [ "$ALL" = true ] || [ "$CLAUDE_CODE" = true ]; then
         skill_name=$(basename "$skill_dir")
         cp -rf "$skill_dir" "$CLAUDE_DIR/skills/$skill_name"
     done
-    echo "  ✓ 14 custom skills copied to ~/.claude/skills/"
+    echo "  ✓ Custom skills copied to ~/.claude/skills/"
+
+    # Install business agents (CEO advisor, PM, solution engineer, market researcher, etc.)
+    echo "  Installing business agents..."
+    mkdir -p "$CLAUDE_DIR/agents"
+    if [ -d "$REPO/business-agents" ]; then
+        cp -f "$REPO/business-agents"/* "$CLAUDE_DIR/agents/" 2>/dev/null
+        echo "  ✓ Business agents installed to ~/.claude/agents/"
+    fi
+
+    # Install business commands (/biz-plan, /market-analysis, /okr-workshop, etc.)
+    echo "  Installing business commands..."
+    mkdir -p "$CLAUDE_DIR/commands"
+    if [ -d "$REPO/business-commands" ]; then
+        cp -f "$REPO/business-commands"/* "$CLAUDE_DIR/commands/" 2>/dev/null
+        echo "  ✓ Business commands installed to ~/.claude/commands/"
+    fi
 
     # Install ECC rules (common + typescript + react) — dari repo, no internet needed
     echo "  Installing ECC rules..."

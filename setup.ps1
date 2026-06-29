@@ -43,7 +43,37 @@ if ($All -or $ClaudeCode) {
     Get-ChildItem "$REPO\claude-desktop\skills" -Directory | ForEach-Object {
         Copy-Item -Recurse -Force $_.FullName "$skillsDest\$($_.Name)"
     }
-    Write-Host "  14 custom skills copied to ~/.claude/skills/" -ForegroundColor Green
+    Write-Host "  Custom skills copied to ~/.claude/skills/" -ForegroundColor Green
+
+    # Install business skills (strategy, OKR, pitching, solution design, edutech, etc.)
+    Write-Host "  Installing business skills..." -ForegroundColor Gray
+    if (Test-Path "$REPO\claude-desktop\skills") {
+        # Already copied above — business skills are part of claude-desktop/skills
+    }
+
+    # Install business agents (CEO advisor, PM, solution engineer, market researcher, etc.)
+    Write-Host "  Installing business agents..." -ForegroundColor Gray
+    if (Test-Path "$REPO\business-agents") {
+        Get-ChildItem "$REPO\business-agents" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$agentsDest\$($_.Name)" -ErrorAction SilentlyContinue
+        }
+        # Handle case where agentsDest not yet created
+        New-Item -ItemType Directory -Force "$claudeDir\agents" | Out-Null
+        Get-ChildItem "$REPO\business-agents" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\agents\$($_.Name)"
+        }
+        Write-Host "  Business agents installed (~/.claude/agents/)" -ForegroundColor Green
+    }
+
+    # Install business commands (/biz-plan, /market-analysis, /okr-workshop, etc.)
+    Write-Host "  Installing business commands..." -ForegroundColor Gray
+    if (Test-Path "$REPO\business-commands") {
+        New-Item -ItemType Directory -Force "$claudeDir\commands" | Out-Null
+        Get-ChildItem "$REPO\business-commands" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\commands\$($_.Name)"
+        }
+        Write-Host "  Business commands installed (~/.claude/commands/)" -ForegroundColor Green
+    }
 
     # Install ECC rules (common + typescript + react) — dari repo, no internet needed
     Write-Host "  Installing ECC rules..." -ForegroundColor Gray
