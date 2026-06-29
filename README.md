@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=AI%20Dotfiles&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=by%20Galang%20%E2%80%94%20The%20Ultimate%20AI%20Coding%20Agent%20Setup&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=AI%20Dotfiles&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Clone%20once.%20Unlock%20500%2B%20AI%20specialists%20in%20every%20session.&descAlignY=60&descSize=17" width="100%"/>
 
 <br/>
 
@@ -11,92 +11,259 @@
 
 <br/>
 
-[![Skills](https://img.shields.io/badge/Skills-463+-FF6B6B?style=flat-square)](GUIDE.md)
-[![Agents](https://img.shields.io/badge/Agents-137+-4ECDC4?style=flat-square)](GUIDE.md#complete-agent-reference)
-[![Commands](https://img.shields.io/badge/Commands-155+-45B7D1?style=flat-square)](GUIDE.md#complete-command-reference)
-[![Platform](https://img.shields.io/badge/Platforms-4-gold?style=flat-square)](#choose-your-setup)
+[![Skills](https://img.shields.io/badge/Skills-480+-FF6B6B?style=flat-square)](GUIDE.md)
+[![Agents](https://img.shields.io/badge/Agents-145+-4ECDC4?style=flat-square)](GUIDE.md#complete-agent-reference)
+[![Commands](https://img.shields.io/badge/Commands-165+-45B7D1?style=flat-square)](GUIDE.md#complete-command-reference)
+[![Platforms](https://img.shields.io/badge/Platforms-4-gold?style=flat-square)](#installation)
 
 <br/>
 
-> **Clone once. 5-minute setup. Supercharge every AI coding agent you use.**
+### Your AI coding agent is smart. This makes it *dangerous.*
+
+*480+ skills. 145+ specialist agents. 165+ slash commands.*  
+*One setup. Works with Claude Code, Cursor, Windsurf, and Codex.*
+
+<br/>
+
+**[→ Start setup (3 steps)](#installation)** &nbsp;·&nbsp; **[→ Pick your role](#-pick-your-role)** &nbsp;·&nbsp; **[→ Full guide](GUIDE.md)**
 
 </div>
 
 ---
 
-## 👋 About Galang
+## What Is This?
+
+Think of it like `.bashrc` — but instead of shell aliases, you're loading **an entire team of AI specialists** into every coding session.
+
+The moment you clone and run setup, your AI agent gets:
+
+| | What You Get | Example |
+|---|---|---|
+| 🧠 | **480+ Skills** — domain knowledge on demand | React patterns, Supabase RLS, OKR planning, ad campaign formulas |
+| 🤖 | **145+ Agents** — specialist roles that spawn automatically | `security-reviewer`, `market-researcher`, `ads-manager`, `tdd-guide` |
+| ⚡ | **165+ Commands** — one-word workflows | `/tdd`, `/code-review`, `/marketing-plan`, `/pitch-deck` |
+| 📋 | **Always-on Rules** — zero configuration | Coding standards, security checks, TypeScript rules — active every session |
+| 🔀 | **4 AI Platforms** — one setup covers all | Claude Code · Cursor · Windsurf · Codex |
+
+No configuration needed. No prompt engineering. Just talk to your AI like normal — the right tools activate automatically.
+
+---
+
+## 🎯 Pick Your Role
+
+**Not sure where to start?** Find your role below and jump straight to what matters to you.
+
+<br/>
 
 <table>
 <tr>
-<td width="60%">
+<td width="50%" valign="top">
 
-**Galang** is a **Forward Deployed Engineer (FDE)** — a rare combination of roles that lets him operate across the full spectrum of a business, from executive strategy to shipped product.
+### 💻 Developer
+*Web · Mobile · Backend · DevOps*
 
-In practice, this means he can simultaneously act as:
+**You'll use most:**
+- `react-reviewer` / `typescript-reviewer` / `security-reviewer`
+- `/tdd` → `/code-review` → `/security-scan`
+- `build-error-resolver` (kicks in automatically when builds fail)
+- 271 ECC skills + always-on coding rules
 
-- 🧭 **Product Manager** — understand the problem, define the solution, write the PRD
-- 🔧 **Solution Engineer** — design the architecture, scope the implementation, write the proposal
-- 💻 **Software Engineer** — build it himself, from backend to frontend to deployment
-
-**What this unlocks:**
-- He understands a company's business problem — not just the technical ticket
-- He speaks fluently to product teams, and engineering teams in the same meeting
-- He can go from client discovery to a working product without handoff gaps
-
-**Background:**
-- 🧑‍💻 **8 years** of software engineering across web, mobile, and backend systems
-- 🏢 Founder of an **IT Consultancy** serving businesses across Southeast Asia
-- 🤖 Specialist in **AI-powered development**, workflow automation, and digital transformation
-- 🌏 Based in **Indonesia**, operating across Southeast Asia
-
-*This repo is the exact AI setup Galang uses every day — curated from the best tooling available and shared with developers, founders, and operators who want to work at a higher level.*
+**Start here:** [Web / Mobile / Backend use cases →](GUIDE.md#web-app-react--vite--typescript)
 
 </td>
-<td width="40%" align="center">
+<td width="50%" valign="top">
 
-```
- ╔════════════════════════╗
- ║    GALANG's ROLES      ║
- ╠════════════════════════╣
- ║  Product Manager    ✓  ║
- ║  Solution Engineer  ✓  ║
- ║  Software Engineer  ✓  ║
- ╠════════════════════════╣
- ║  Skills    → 480+      ║
- ║  Agents    → 145+      ║
- ║  Commands  → 165+      ║
- ║  Platforms →  4        ║
- ╚════════════════════════╝
+### 🚀 Founder / CEO
+*Strategy · Fundraising · Decision-making*
 
- "From strategy to shipped."
-```
+**You'll use most:**
+- `ceo-advisor`, `pitch-coach`, `market-researcher`
+- `/biz-plan`, `/pitch-deck`, `/decision-matrix`
+- `business-strategy`, `okr-planning`, `pitch-deck` skills
+
+**Start here:** [Business & Strategy use cases →](GUIDE.md#business--strategy)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📣 CMO / Marketer
+*Ads · Brand · Content · Growth · SEO · Email*
+
+**You'll use most:**
+- `cmo-advisor`, `ads-manager`, `growth-marketer`, `copywriter`
+- `/marketing-plan`, `/ads-brief`, `/gtm-plan`, `/growth-audit`
+- Skills: `ads-performance`, `growth-metrics`, `seo-strategy`, `email-marketing`
+
+**Start here:** [Marketing use cases →](GUIDE.md#marketing)
+
+</td>
+<td width="50%" valign="top">
+
+### 📋 Product Manager
+*Roadmaps · PRDs · OKRs · Discovery*
+
+**You'll use most:**
+- `product-manager`, `okr-coach`, `business-analyst`
+- `/product-roadmap`, `/okr-workshop`, `/jtbd`
+- `product-strategy`, `decision-framework`, `stakeholder-comms` skills
+
+**Start here:** [Business & Strategy use cases →](GUIDE.md#business--strategy)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔧 Forward Deployed Engineer (FDE)
+*PM + Solution Engineer + Software Engineer*
+
+**You'll use most:**
+- `solution-engineer`, `ceo-advisor`, `business-analyst` + all dev agents
+- `/solution-proposal`, `/exec-brief`, `/biz-plan` + `/tdd`, `/code-review`
+- Full Business Pack + full ECC dev stack
+
+**Start here:** [Business & Strategy →](GUIDE.md#business--strategy) + [Web Dev →](GUIDE.md#web-app-react--vite--typescript)
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Data / Business Analyst
+*Research · Market Sizing · Dashboards · Reports*
+
+**You'll use most:**
+- `market-researcher`, `marketing-analyst`, `business-analyst`
+- `/market-analysis`, `/growth-audit`, `/brand-audit`
+- `data-analytics`, `market-research`, `growth-metrics` skills
+
+**Start here:** [Business & Strategy →](GUIDE.md#business--strategy) + [Marketing →](GUIDE.md#marketing)
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-## 🤔 What Is This?
-
-**Imagine having 463 AI specialists on call, every time you open your editor.**
-
-This is an **AI dotfiles repo** — like `.bashrc` or `.zshrc`, but for AI coding agents. Clone it once, and every coding session comes loaded with:
-
-| What You Get | Description |
-|-------------|-------------|
-| 🧠 **463+ Skills** | Domain-specific knowledge — from React to trading algorithms |
-| 🤖 **137+ Agents** | AI specialists — security reviewer, market analyst, TDD guide, and more |
-| ⚡ **155+ Commands** | Shortcuts like `/tdd`, `/plan`, `/code-review`, `/security-scan` |
-| 📋 **Always-on Rules** | Coding standards and security rules active every session, automatically |
-| 🔀 **4 Platform Support** | Claude Code · Cursor · Windsurf · Codex — one setup for all |
+> **Don't see your role?** Everything is in the **[Full Guide →](GUIDE.md)**
 
 ---
 
-## 🚀 What Can You Build With This?
+## Installation
+
+> **Requirements:** Git, Node.js v18+ &nbsp;·&nbsp; Takes about 5 minutes
+
+### Step 1 — Clone the repo
+
+```bash
+git clone https://github.com/virgiangalang/ai-dotfiles.git
+cd ai-dotfiles
+```
+
+### Step 2 — Run setup
+
+**Windows (PowerShell):**
+```powershell
+.\setup.ps1
+```
+
+**Mac / Linux (Terminal):**
+```bash
+bash setup.sh
+```
+
+That's it. The script installs everything automatically — skills, agents, commands, rules, and hooks — into your `~/.claude/` folder.
+
+### Step 3 — Restart your AI editor
+
+Close and reopen Claude Code (or Cursor / Windsurf). Your new tools are live.
+
+---
+
+### Optional: Install per-platform only
+
+If you only use one AI tool and don't need everything:
+
+| What you want | Windows | Mac / Linux |
+|---|---|---|
+| Claude Code only | `.\setup.ps1 --claude-code` | `bash setup.sh --claude-code` |
+| Cursor only | `.\setup.ps1 --cursor` | `bash setup.sh --cursor` |
+| Claude Desktop only | `.\setup.ps1 --claude-desktop` | `bash setup.sh --claude-desktop` |
+| Everything (recommended) | `.\setup.ps1` | `bash setup.sh` |
+
+### Optional: Cursor & Windsurf (per project)
+
+```bash
+cp cursor/rules.md .cursorrules       # Cursor
+cp windsurf/rules.md .windsurfrules   # Windsurf
+cp codex/AGENTS.md AGENTS.md          # OpenAI Codex
+```
+
+### Optional: Cross-session RAG Memory
+
+Gives Claude memory that persists between sessions — it remembers your codebase.
+
+```bash
+# Run this inside your project folder (not ai-dotfiles)
+claude mcp add ruflo -- npx ruflo@latest mcp start
+```
+
+---
+
+## What's Inside
+
+| Source | Skills | Agents | Commands | What's covered |
+|--------|:------:|:------:|:--------:|---|
+| 🎨 **Custom (Galang's Picks)** | 14 | — | — | Supabase, Vercel, mobile RN, Indonesian payment gateways, doc generation |
+| 📊 **Business Pack** | 10 | 8 | 10 | Strategy · OKR · pitch · market research · solution design · edutech |
+| 📣 **Marketing Pack** | 8 | 8 | 10 | Ads (Google/Meta/TikTok) · brand · content · growth metrics · SEO · email |
+| ⚡ **ECC** (Hackathon Winner) | 271 | 67 | 92 | Always-on rules: coding standards / TypeScript / React |
+| 🔁 **Ruflo** (35 plugins) | 129 | 56 | 49 | Neural trader · RAG memory · browser automation |
+| 💪 **Superpowers** | 14 | — | — | TDD · brainstorming · git worktree |
+| 🧠 **Claude-Mem** | 17 | — | — | Codebase memory · 36 cognitive modes |
+| 🤖 **Anthropic Official** | 10 | 14 | 14 | 18 hooks |
+| | | | | |
+| **GRAND TOTAL** | **~473** | **~153** | **~175** | |
+
+---
+
+## How It Works (the short version)
+
+After setup, just talk to your AI normally. The right skills and agents load automatically.
+
+```
+You: "review this React component"
+→ react-reviewer + typescript-reviewer agents spawn automatically
+
+You: "fix this build error"
+→ build-error-resolver kicks in immediately
+
+You: "make me a marketing plan"
+→ cmo-advisor + marketing-strategy skill + /marketing-plan command
+
+You: "size the market for my SaaS idea"
+→ market-researcher agent + market-research (ECC) skill
+
+You: "write tests before implementing this"
+→ full TDD workflow with tdd-guide agent
+
+You: "check security on this API endpoint"
+→ security-reviewer + OWASP Top 10 scan
+```
+
+You can also invoke anything explicitly:
+```
+"use the supabase-patterns skill for RLS"
+"load the ads-performance skill and audit my Google campaigns"
+"use TDD workflow for this login feature"
+```
+
+---
+
+## What Can You Build
 
 <details>
-<summary><b>🌐 Web Development (React, Next.js, Vite, TypeScript)</b></summary>
+<summary><b>💻 Web Development (React, Next.js, Vite, TypeScript)</b></summary>
 <br/>
 
 - Scaffold new projects with the right structure from day one
@@ -104,9 +271,8 @@ This is an **AI dotfiles repo** — like `.bashrc` or `.zshrc`, but for AI codin
 - TDD workflow — write tests first, then implement
 - Automatic security audit for every API endpoint
 - Bundle size optimization and render performance tuning
-- Deploy to Vercel with best practices baked in
 
-**Active Skills:** `react-patterns` `vite-patterns` `frontend-design` `nextjs-turbopack`  
+**Skills:** `react-patterns` `vite-patterns` `frontend-design` `nextjs-turbopack`  
 **Agents:** `react-reviewer` `typescript-reviewer` `security-reviewer` `react-build-resolver`  
 **Commands:** `/tdd` `/code-review` `/security-scan` `/react-review`
 
@@ -121,9 +287,9 @@ This is an **AI dotfiles repo** — like `.bashrc` or `.zshrc`, but for AI codin
 - iOS (Swift) and Android (Kotlin/Compose) specialist agents
 - Cross-platform development with Compose Multiplatform
 
-**Active Skills:** `mobile-rn` `dart-flutter-patterns` `kotlin-patterns` `swift-concurrency-6-2`  
+**Skills:** `mobile-rn` `dart-flutter-patterns` `kotlin-patterns` `swift-concurrency-6-2`  
 **Agents:** `flutter-reviewer` `kotlin-reviewer` `swift-reviewer` `dart-build-resolver`  
-**Commands:** `/flutter-review` `/flutter-build` `/kotlin-review`
+**Commands:** `/flutter-review` `/kotlin-review`
 
 </details>
 
@@ -138,6 +304,51 @@ This is an **AI dotfiles repo** — like `.bashrc` or `.zshrc`, but for AI codin
 
 **Agents:** `go-reviewer` `rust-reviewer` `python-reviewer` `database-reviewer`  
 **Commands:** `/go-review` `/rust-review` `/python-review` `/security-scan`
+
+</details>
+
+<details>
+<summary><b>📣 Marketing & Growth</b></summary>
+<br/>
+
+A complete marketing team in your AI — from strategy to execution.
+
+```
+ICP → Channel Mix → Campaign Brief → Creative Copy → Launch → Measure
+```
+
+- Full marketing strategy (ICP, TOFU/MOFU/BOFU, channel mix, budget)
+- Paid ads: Google Ads (Search/PMax/RSA), Meta (lookalikes, creative testing), TikTok (Spark Ads, hooks)
+- Brand positioning using the "For/is the/that/because" formula
+- Growth funnel audit: CPL → MQL → SQL → CAC → LTV → ROAS
+- Content calendar, pillar strategy, topic clusters
+- AIDA / PAS / 4 U's copywriting with headline formulas
+- SEO: keyword research, technical audit, on-page optimization, link building
+- Email sequences (welcome, nurture, re-engagement) + SPF/DKIM/DMARC
+
+**Skills:** `marketing-strategy` `brand-strategy` `ads-performance` `growth-metrics` `content-strategy` `copywriting` `seo-strategy` `email-marketing`  
+**Agents:** `cmo-advisor` `ads-manager` `growth-marketer` `copywriter` `content-strategist` `brand-strategist` `marketing-analyst` `social-media-strategist`  
+**Commands:** `/marketing-plan` `/ads-brief` `/gtm-plan` `/growth-audit` `/brand-audit` `/campaign-brief` `/content-calendar` `/copy-review` `/seo-audit` `/email-sequence`
+
+</details>
+
+<details>
+<summary><b>📊 Business Strategy & Executive Decision-Making</b></summary>
+<br/>
+
+For founders, CEOs, executives, consultants, and FDEs — the full business intelligence stack.
+
+- Strategic planning: SWOT, Blue Ocean, BCG Matrix, Porter's Five Forces
+- Market sizing: TAM/SAM/SOM (top-down + bottom-up)
+- OKR planning, facilitation, scoring, retrospectives
+- Business Model Canvas — all 9 blocks + unit economics
+- Pitch deck creation — investor, board, demo day
+- Decision frameworks: RICE, pre-mortem, first principles, decision matrix
+- Executive briefings, board updates, investor updates
+
+**Skills:** `business-strategy` `decision-framework` `product-strategy` `okr-planning` `market-research` `pitch-deck` `business-model-canvas` `stakeholder-comms` `solution-design` `edutech-strategy`  
+**Agents:** `ceo-advisor` `product-manager` `business-analyst` `solution-engineer` `market-researcher` `pitch-coach` `okr-coach` `edutech-specialist`  
+**Commands:** `/biz-plan` `/market-analysis` `/okr-workshop` `/pitch-deck` `/decision-matrix` `/solution-proposal` `/product-roadmap` `/exec-brief` `/bmc` `/jtbd`
 
 </details>
 
@@ -159,7 +370,7 @@ Market Data → Market Analyst → Trading Strategist → Risk Analyst → Backt
 **Agents:** `market-analyst` `trading-strategist` `risk-analyst` `backtest-engineer`  
 **Skills:** `trader-backtest` `trader-risk` `trader-signal` `market-pattern` `neural-train`
 
-> ⚠️ These tools are for analysis and backtesting only. Always verify results before live trading.
+> ⚠️ Analysis and backtesting only. Always verify results before live trading.
 
 </details>
 
@@ -170,7 +381,6 @@ Market Data → Market Analyst → Trading Strategist → Risk Analyst → Backt
 - Automatic OWASP Top 10 scanning
 - Secret and credential leak detection
 - Healthcare PHI & HIPAA compliance review
-- DeFi / smart contract security audit
 - Supply chain review before open-sourcing
 
 **Agents:** `security-reviewer` `security-auditor` `safety-specialist` `opensource-sanitizer`  
@@ -193,194 +403,11 @@ Market Data → Market Analyst → Trading Strategist → Risk Analyst → Backt
 
 </details>
 
-<details>
-<summary><b>📊 Business Strategy & Executive Decision-Making</b></summary>
-<br/>
-
-For founders, CEOs, executives, consultants, and FDEs — the full business intelligence stack:
-
-- Strategic planning with SWOT, Blue Ocean, BCG Matrix, Porter's Five Forces
-- Market sizing (TAM/SAM/SOM), competitor analysis, customer discovery
-- OKR planning and facilitation — set, track, score, retrospect
-- Business Model Canvas — all 9 blocks + unit economics
-- Pitch deck creation — investor, board, demo day
-- Decision frameworks — RICE, decision matrix, pre-mortem, first principles
-- Executive briefings, board updates, investor updates
-- Solution design — FDE-style business problem → technical proposal
-- Edutech strategy — curriculum design, LMS, learning outcomes, student engagement
-
-**Skills:** `business-strategy` `decision-framework` `product-strategy` `okr-planning` `market-research` `pitch-deck` `business-model-canvas` `stakeholder-comms` `solution-design` `edutech-strategy`  
-**Agents:** `ceo-advisor` `product-manager` `business-analyst` `solution-engineer` `market-researcher` `pitch-coach` `okr-coach` `edutech-specialist`  
-**Commands:** `/biz-plan` `/market-analysis` `/okr-workshop` `/pitch-deck` `/decision-matrix` `/solution-proposal` `/product-roadmap` `/exec-brief` `/bmc` `/jtbd`
-
-</details>
-
-<details>
-<summary><b>📝 Documents & Reports (Word, Excel, PowerPoint, PDF)</b></summary>
-<br/>
-
-- Generate Word documents (.docx) directly from AI
-- Build PowerPoint presentations
-- Export reports to Excel or PDF
-
-**Skills:** `docx` `pptx` `xlsx` `pdf`
-
-</details>
-
 ---
 
-## 🎯 Choose Your Setup
-
-Not everyone needs everything. Pick what fits your workflow:
-
-<table>
-<thead>
-<tr>
-<th>Profile</th>
-<th>What You Need</th>
-<th>Setup Flag</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🌐 <b>Web Developer</b></td>
-<td>Claude Code + ECC + Superpowers</td>
-<td><code>.\setup.ps1 --claude-code</code></td>
-</tr>
-<tr>
-<td>📱 <b>Mobile Developer</b></td>
-<td>Claude Code + ECC (Flutter/RN/Swift/Kotlin agents)</td>
-<td><code>.\setup.ps1 --claude-code</code></td>
-</tr>
-<tr>
-<td>📈 <b>Quant / Trader</b></td>
-<td>Claude Code + Ruflo (neural-trader pipeline)</td>
-<td><code>.\setup.ps1 --claude-code</code></td>
-</tr>
-<tr>
-<td>🖱️ <b>Cursor User</b></td>
-<td>Cursor config + rules</td>
-<td><code>.\setup.ps1 --cursor</code></td>
-</tr>
-<tr>
-<td>🖥️ <b>Claude Desktop</b></td>
-<td>Custom skills in the Desktop app</td>
-<td><code>.\setup.ps1 --claude-desktop</code></td>
-</tr>
-<tr>
-<td>🚀 <b>Full Setup (Recommended)</b></td>
-<td>All platforms, all skills, everything</td>
-<td><code>.\setup.ps1</code> (default)</td>
-</tr>
-</tbody>
-</table>
-
----
-
-## ⚡ Installation
-
-### Windows
-
-```powershell
-# 1. Clone the repo
-git clone https://github.com/virgiangalang/ai-dotfiles.git
-cd ai-dotfiles
-
-# 2. Run setup — choose what you need
-.\setup.ps1                    # Full setup, all platforms
-.\setup.ps1 --claude-code      # Claude Code only
-.\setup.ps1 --cursor           # Cursor only
-.\setup.ps1 --claude-desktop   # Claude Desktop only
-
-# 3. Restart Claude Code / Cursor / Windsurf
-```
-
-### Mac / Linux
+## Syncing Across Devices
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/virgiangalang/ai-dotfiles.git
-cd ai-dotfiles
-
-# 2. Run setup
-bash setup.sh                    # Full setup
-bash setup.sh --claude-code      # Claude Code only
-bash setup.sh --cursor           # Cursor only
-bash setup.sh --claude-desktop   # Claude Desktop only
-
-# 3. Restart your AI editor
-```
-
-### Cursor & Windsurf (per project)
-
-```bash
-# Cursor — copy to your project root
-cp cursor/rules.md .cursorrules
-
-# Windsurf — copy to your project root
-cp windsurf/rules.md .windsurfrules
-
-# Codex — copy to your project root
-cp codex/AGENTS.md AGENTS.md
-```
-
-### Ruflo RAG Memory (optional — for cross-session memory)
-
-```bash
-# Run this inside your project folder, not in ai-dotfiles
-claude mcp add ruflo -- npx ruflo@latest mcp start
-```
-
-> **Requirements:** Node.js v18+, Git
-
----
-
-## 📦 What's Inside
-
-| Source | Skills | Agents | Commands | Bonus |
-|--------|:------:|:------:|:--------:|-------|
-| 🎨 **Custom (Galang's Picks)** | 14 | — | — | Supabase, Vercel, mobile RN, Indonesian payment gateways, doc generation |
-| 📊 **Business Pack** | 10 | 8 | 10 | Strategy, OKR, pitch, market research, solution design, edutech |
-| ⚡ **ECC** (Hackathon Winner) | 271 | 67 | 92 | Always-on rules: common / TypeScript / React |
-| 🔁 **Ruflo** (35 plugins) | 129 | 56 | 49 | Neural trader, RAG memory, browser automation |
-| 💪 **Superpowers** | 14 | — | — | TDD, brainstorming, git worktree |
-| 🧠 **Claude-Mem** | 17 | — | — | Codebase memory, 36 modes |
-| 🤖 **Anthropic Official** | 10 | 14 | 14 | 18 hooks |
-| | | | | |
-| **GRAND TOTAL** | **~465** | **~145** | **~165** | |
-
----
-
-## 🧠 How It Works
-
-After setup, just talk to your AI normally. Skills activate automatically when relevant.
-
-```bash
-# Examples in Claude Code:
-"review this React component"          → react-reviewer agent spawns automatically
-"fix this build error"                 → build-error-resolver agent kicks in
-"backtest an RSI crossover strategy"   → trading pipeline activates
-"check security on this endpoint"      → security-reviewer + OWASP scan
-"write tests before implementing"      → full TDD workflow
-"make a plan for feature X"            → /plan command
-```
-
-**Want to invoke a specific skill explicitly?**
-
-```bash
-"use the supabase-patterns skill to help me set up RLS policies"
-"load the trading pipeline and analyze BTCUSDT"
-"use the TDD workflow for this login feature"
-```
-
-📚 **Full skill & agent guide → [GUIDE.md](GUIDE.md)**
-
----
-
-## 🔄 Syncing Across Devices
-
-```bash
-# On any device — just pull and re-run setup
 git pull
 .\setup.ps1    # Windows
 bash setup.sh  # Mac / Linux
@@ -388,21 +415,24 @@ bash setup.sh  # Mac / Linux
 
 ---
 
-## 🏗️ Repo Structure
+## Repo Structure
 
 ```
 ai-dotfiles/
 │
 ├── 📁 claude-code/           # Claude Code settings
 ├── 📁 claude-desktop/        # 14 curated custom skills
-├── 📁 ecc-rules/             # Always-active coding rules
-│   ├── common/               # Security, testing, git standards
-│   ├── typescript/           # TypeScript strict rules
-│   └── react/                # React best practices
+├── 📁 ecc-rules/             # Always-active coding rules (common / typescript / react)
 │
 ├── 📁 ecc-skills/            # 271 ECC skills
 ├── 📁 ecc-agents/            # 67 ECC agents
 ├── 📁 ecc-commands/          # 92 ECC commands
+│
+├── 📁 business-agents/       # 8 business specialist agents
+├── 📁 business-commands/     # 10 business slash commands
+├── 📁 marketing-agents/      # 8 marketing specialist agents
+├── 📁 marketing-commands/    # 10 marketing slash commands
+│
 ├── 📁 superpowers-skills/    # 14 Superpowers skills
 ├── 📁 ruflo-skills/          # 129 Ruflo skills (trading, memory, browser)
 ├── 📁 ruflo-agents/          # 56 Ruflo agents
@@ -412,7 +442,6 @@ ai-dotfiles/
 ├── 📁 cursor/                # Cursor MCP config + rules
 ├── 📁 codex/                 # OpenAI Codex AGENTS.md
 ├── 📁 windsurf/              # Windsurf rules
-├── 📁 shared/                # Universal MCP server config
 │
 ├── ⚙️  setup.ps1             # Windows setup script
 ├── ⚙️  setup.sh              # Mac / Linux setup script
@@ -422,13 +451,19 @@ ai-dotfiles/
 
 ---
 
-<div align="center">
+## About Galang
+
+**Galang** is a **Forward Deployed Engineer (FDE)** — a rare combination of PM, Solution Engineer, and Software Engineer that lets him operate across the full business stack: from executive strategy sessions to shipped product.
+
+8 years of software engineering · Founder of an IT Consultancy · Specialist in AI-powered development · Based in Indonesia, operating across Southeast Asia.
+
+*This repo is the exact AI setup Galang uses every day — shared with developers, founders, and operators who want to work at a higher level.*
 
 ---
 
-**Built by Galang**  
-*Forward Deployed Engineer · Product Manager · Solution Engineer · Software Engineer*  
-*IT Consultant Founder · 8 Years Engineering · Southeast Asia*
+<div align="center">
+
+**[→ Open the Full Guide](GUIDE.md)** — all skills, agents, commands, and use cases in one place.
 
 <br/>
 

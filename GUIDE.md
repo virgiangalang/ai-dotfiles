@@ -1,7 +1,22 @@
 # Complete Skill, Agent & Command Guide
 
-> **For:** Anyone who just cloned this repo and wants to know how to use it.  
-> **Repo:** [github.com/virgiangalang/ai-dotfiles](https://github.com/virgiangalang/ai-dotfiles)
+> **Repo:** [github.com/virgiangalang/ai-dotfiles](https://github.com/virgiangalang/ai-dotfiles) &nbsp;·&nbsp; **Setup:** [README.md](README.md)
+
+---
+
+## 🎯 Start Here — Jump to Your Role
+
+Find your role and go straight to what's relevant to you.
+
+| Your Role | Jump To |
+|-----------|---------|
+| 💻 **Developer** (web / mobile / backend) | [Web App](#web-app-react--vite--typescript) · [Mobile](#mobile-app) · [Backend & API](#backend--api) · [Security](#security) · [Code Review](#code-review--quality) |
+| 🚀 **Founder / CEO** | [Business & Strategy](#business--strategy) → `/biz-plan` `/pitch-deck` `/decision-matrix` |
+| 📣 **CMO / Marketer** | [Marketing](#marketing) → `/marketing-plan` `/ads-brief` `/gtm-plan` `/growth-audit` |
+| 📋 **Product Manager** | [Business & Strategy](#business--strategy) → `/product-roadmap` `/okr-workshop` `/jtbd` |
+| 🔧 **Forward Deployed Engineer** | [Business & Strategy](#business--strategy) + [Web App](#web-app-react--vite--typescript) → full stack |
+| 📊 **Data / Business Analyst** | [Business & Strategy](#business--strategy) + [Marketing](#marketing) → research, sizing, dashboards |
+| 📈 **Quant / Trader** | [Trading & Finance](#trading--finance) → neural trader pipeline |
 
 ---
 
