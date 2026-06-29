@@ -1,0 +1,8 @@
+{
+  "ruflo": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["ruflo@latest", "mcp", "start"],
+    "env": {}
+  }
+}

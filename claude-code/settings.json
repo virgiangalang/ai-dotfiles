@@ -1,0 +1,59 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run *)",
+      "Bash(git *)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(pandoc --version)"
+    ],
+    "additionalDirectories": []
+  },
+  "enableWorkflows": true,
+  "enabledPlugins": {
+    "frontend-design@claude-code-plugins": true,
+    "code-review@claude-code-plugins": true,
+    "security-guidance@claude-code-plugins": true,
+    "superpowers@superpowers-marketplace": true,
+    "claude-mem@thedotmack": true,
+    "ruflo-rag-memory@ruflo": true,
+    "ecc@ecc": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-code"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
+      }
+    },
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    },
+    "ruflo": {
+      "source": {
+        "source": "github",
+        "repo": "ruvnet/ruflo"
+      }
+    },
+    "ecc": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
+      }
+    }
+  },
+  "effortLevel": "medium",
+  "agentPushNotifEnabled": true
+}
