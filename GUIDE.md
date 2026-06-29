@@ -12,6 +12,7 @@
 3. [Skills, Agents & Commands — The Basics](#3-skills-agents--commands--the-basics)
 4. [Mapping by Use Case](#4-mapping-by-use-case)
    - [Business & Strategy](#business--strategy)
+   - [Marketing](#marketing)
    - [Web App (React / Vite / TypeScript)](#web-app-react--vite--typescript)
    - [Mobile App](#mobile-app)
    - [Backend & API](#backend--api)
@@ -161,6 +162,55 @@ For founders, CEOs, executives, PMs, and consultants — business planning, anal
 
 "build a strategic plan for entering a new market"
 → ceo-advisor agent + business-strategy + market-research (ECC)
+```
+
+---
+
+### Marketing
+
+For CMOs, growth marketers, brand leads, content teams, and ads managers — full-stack marketing intelligence.
+
+> **ECC skills already installed:**  
+> `market-research` · `competitive-platform-analysis` · `marketing-campaign` · `deep-research`
+
+| Task | Skill | Agent | Command |
+|------|-------|-------|---------|
+| **Full marketing strategy + ICP + channels** | `marketing-strategy` | `cmo-advisor` | `/marketing-plan` |
+| **Brand positioning, pillars, messaging** | `brand-strategy` | `brand-strategist` | `/brand-audit` |
+| **Google Ads / Meta Ads / TikTok Ads** | `ads-performance` | `ads-manager` | `/ads-brief` |
+| **CPL / MQL / SQL / CAC / LTV / ROAS** | `growth-metrics` | `marketing-analyst` | `/growth-audit` |
+| **Content calendar + SEO content planning** | `content-strategy` | `content-strategist` | `/content-calendar` |
+| **Ad copy / landing page / email copy** | `copywriting` | `copywriter` | `/copy-review` |
+| **SEO audit + keyword research** | `seo-strategy` | `content-strategist` | `/seo-audit` |
+| **Email sequence (welcome / nurture / re-engage)** | `email-marketing` | `copywriter` | `/email-sequence` |
+| **Go-to-market plan** | `marketing-strategy` + `brand-strategy` | `cmo-advisor` | `/gtm-plan` |
+| **Integrated campaign brief** | `marketing-strategy` + `copywriting` | `cmo-advisor` | `/campaign-brief` |
+| **Organic social strategy** | `content-strategy` + `brand-strategy` | `social-media-strategist` | — |
+| **Marketing funnel audit** | `growth-metrics` | `growth-marketer` | `/growth-audit` |
+
+**Marketing workflow examples:**
+
+```
+"build our go-to-market plan for Q3"
+→ cmo-advisor + marketing-strategy + brand-strategy + /gtm-plan
+
+"audit our paid ads — CPL is too high"
+→ ads-manager agent + ads-performance skill + /ads-brief
+
+"calculate our MQL-to-SQL rate and find the drop-off"
+→ marketing-analyst + growth-metrics + data-analytics
+
+"write a 5-email welcome sequence for new signups"
+→ copywriter agent + email-marketing + copywriting + /email-sequence
+
+"create a content calendar with SEO keywords for next 2 months"
+→ content-strategist + content-strategy + seo-strategy + /content-calendar
+
+"review our landing page copy"
+→ copywriter agent + copywriting + /copy-review
+
+"build our brand positioning and messaging framework"
+→ brand-strategist agent + brand-strategy + /brand-audit
 ```
 
 ---
@@ -349,6 +399,23 @@ Data → Market Analyst → Trading Strategist → Risk Analyst → Execute
 ---
 
 ## 5. Complete Skill Reference
+
+### 📣 Marketing Pack Skills (8 skills)
+
+ECC-quality marketing skills with Skill Stacks, Guardrails, Operating Modes, Formulas, and Quality Gates.
+
+| Skill | What It Does |
+|-------|-------------|
+| `marketing-strategy` | ICP definition, channel mix scoring, TOFU/MOFU/BOFU mapping, budget allocation, annual calendar |
+| `brand-strategy` | Positioning statement, brand pillars, voice/tone spectrum, messaging hierarchy, brand audit |
+| `content-strategy` | Content pillars, editorial calendar, content brief template, SEO content planning, distribution matrix |
+| `ads-performance` | Google Ads + Meta Ads + TikTok Ads — campaign structure, bidding, CPL/CPA/ROAS formulas, creative testing, campaign audit |
+| `growth-metrics` | AARRR, CPL/MQL/SQL/CAC/LTV formulas, MQL scoring model, attribution models, growth dashboard template |
+| `copywriting` | AIDA, PAS, 4 U's, headline formulas, landing page structure, ad copy templates, CTA best practices |
+| `seo-strategy` | Keyword research process, intent classification, on-page checklist, technical SEO audit, link building, topic clusters |
+| `email-marketing` | Welcome sequence, nurture flow, re-engagement, deliverability (SPF/DKIM/DMARC), A/B testing, email KPIs |
+
+---
 
 ### 💼 Business Pack Skills (11 skills)
 
@@ -566,6 +633,19 @@ Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operat
 | `goal-planner` | GOAP — action planning with A* |
 | `workflow-specialist` | Workflow automation |
 
+### 📣 Marketing Agents
+
+| Agent | When to Use |
+|-------|-------------|
+| `cmo-advisor` | Marketing strategy, GTM, budget decisions, board-level marketing questions |
+| `brand-strategist` | Brand positioning, messaging framework, brand audit, rebranding |
+| `growth-marketer` | Funnel optimization, growth experiments, CPL/CAC analysis, channel scaling |
+| `ads-manager` | Google/Meta/TikTok campaign setup, audit, creative testing, ROAS optimization |
+| `content-strategist` | Content calendar, pillar strategy, SEO content planning, content audit |
+| `copywriter` | Ad copy, landing page copy, email sequences, social media copy |
+| `marketing-analyst` | Campaign performance analysis, attribution, funnel diagnosis, executive dashboard |
+| `social-media-strategist` | Platform strategy, organic social calendar, community management, social KPIs |
+
 ### 💼 Business & Strategy Agents
 
 | Agent | When to Use |
@@ -597,6 +677,23 @@ Evidence-grade business skills with ECC-quality Skill Stacks, Guardrails, Operat
 ---
 
 ## 7. Complete Command Reference
+
+### 📣 Marketing Commands
+
+| Command | Function |
+|---------|---------|
+| `/marketing-plan` | Full marketing strategy — ICP, channels, TOFU/MOFU/BOFU, budget, 90-day plan |
+| `/brand-audit` | Brand consistency, clarity, and differentiation audit with fix list |
+| `/ads-brief` | Complete paid ads campaign brief — structure, targeting, creative, bidding, tracking |
+| `/content-calendar` | Content calendar (4–8 weeks) with pillars, keywords, format, channel, CTA |
+| `/copy-review` | Marketing copy review — 4 U's, framework check, brand voice, specific rewrites |
+| `/growth-audit` | Full funnel audit — CPL/MQL/SQL/CAC/LTV + top 3 growth experiments |
+| `/gtm-plan` | Go-to-market plan — positioning, channels, launch timeline, success metrics |
+| `/campaign-brief` | Integrated marketing campaign brief — objective, messaging, creative, channel plan |
+| `/seo-audit` | SEO audit — technical, on-page, keyword gaps, content opportunities |
+| `/email-sequence` | Complete email sequence — welcome / nurture / re-engagement with full copy |
+
+---
 
 ### 💼 Business Commands
 

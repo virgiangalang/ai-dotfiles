@@ -75,6 +75,26 @@ if ($All -or $ClaudeCode) {
         Write-Host "  Business commands installed (~/.claude/commands/)" -ForegroundColor Green
     }
 
+    # Install marketing agents (CMO, brand strategist, growth marketer, ads manager, etc.)
+    Write-Host "  Installing marketing agents..." -ForegroundColor Gray
+    if (Test-Path "$REPO\marketing-agents") {
+        New-Item -ItemType Directory -Force "$claudeDir\agents" | Out-Null
+        Get-ChildItem "$REPO\marketing-agents" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\agents\$($_.Name)"
+        }
+        Write-Host "  Marketing agents installed (~/.claude/agents/)" -ForegroundColor Green
+    }
+
+    # Install marketing commands (/marketing-plan, /brand-audit, /ads-brief, etc.)
+    Write-Host "  Installing marketing commands..." -ForegroundColor Gray
+    if (Test-Path "$REPO\marketing-commands") {
+        New-Item -ItemType Directory -Force "$claudeDir\commands" | Out-Null
+        Get-ChildItem "$REPO\marketing-commands" -File | ForEach-Object {
+            Copy-Item -Force $_.FullName "$claudeDir\commands\$($_.Name)"
+        }
+        Write-Host "  Marketing commands installed (~/.claude/commands/)" -ForegroundColor Green
+    }
+
     # Install ECC rules (common + typescript + react) — dari repo, no internet needed
     Write-Host "  Installing ECC rules..." -ForegroundColor Gray
     $rulesDir = "$claudeDir\rules\ecc"

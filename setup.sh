@@ -60,6 +60,22 @@ if [ "$ALL" = true ] || [ "$CLAUDE_CODE" = true ]; then
         echo "  ✓ Business commands installed to ~/.claude/commands/"
     fi
 
+    # Install marketing agents (CMO, brand strategist, growth marketer, ads manager, etc.)
+    echo "  Installing marketing agents..."
+    mkdir -p "$CLAUDE_DIR/agents"
+    if [ -d "$REPO/marketing-agents" ]; then
+        cp -f "$REPO/marketing-agents"/* "$CLAUDE_DIR/agents/" 2>/dev/null
+        echo "  ✓ Marketing agents installed to ~/.claude/agents/"
+    fi
+
+    # Install marketing commands (/marketing-plan, /brand-audit, /ads-brief, etc.)
+    echo "  Installing marketing commands..."
+    mkdir -p "$CLAUDE_DIR/commands"
+    if [ -d "$REPO/marketing-commands" ]; then
+        cp -f "$REPO/marketing-commands"/* "$CLAUDE_DIR/commands/" 2>/dev/null
+        echo "  ✓ Marketing commands installed to ~/.claude/commands/"
+    fi
+
     # Install ECC rules (common + typescript + react) — dari repo, no internet needed
     echo "  Installing ECC rules..."
     RULES_DIR="$CLAUDE_DIR/rules/ecc"
