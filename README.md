@@ -33,19 +33,45 @@
 
 ## What Is This?
 
-Think of it like `.bashrc` — but instead of shell aliases, you're loading **an entire team of AI specialists** into every coding session.
+**Your AI coding agent is already powerful. You're just not giving it the right tools.**
 
-The moment you clone and run setup, your AI agent gets:
+Every session starts from zero — no context, no specialization, no workflow memory. You're working with a genius who has amnesia.
 
-| | What You Get | Example |
-|---|---|---|
-| 🧠 | **480+ Skills** — domain knowledge on demand | React patterns, Supabase RLS, OKR planning, ad campaign formulas |
-| 🤖 | **145+ Agents** — specialist roles that spawn automatically | `security-reviewer`, `market-researcher`, `ads-manager`, `tdd-guide` |
-| ⚡ | **165+ Commands** — one-word workflows | `/tdd`, `/code-review`, `/marketing-plan`, `/pitch-deck` |
-| 📋 | **Always-on Rules** — zero configuration | Coding standards, security checks, TypeScript rules — active every session |
-| 🔀 | **4 AI Platforms** — one setup covers all | Claude Code · Cursor · Windsurf · Codex |
+This repo changes that. Clone once, run setup, and your AI instantly gets:
 
-No configuration needed. No prompt engineering. Just talk to your AI like normal — the right tools activate automatically.
+<br/>
+
+<table>
+<tr>
+<td align="center" width="20%">🧠</td>
+<td width="35%"><b>480+ Skills</b><br/><sub>Domain knowledge that loads on demand</sub></td>
+<td width="45%"><sub>React best practices · Supabase RLS · OKR planning · Google Ads formulas · Security patterns · Trading strategies</sub></td>
+</tr>
+<tr>
+<td align="center">🤖</td>
+<td><b>145+ Specialist Agents</b><br/><sub>AI roles that spawn automatically</sub></td>
+<td><sub><code>security-reviewer</code> · <code>market-researcher</code> · <code>ads-manager</code> · <code>tdd-guide</code> · <code>cmo-advisor</code> · <code>pitch-coach</code></sub></td>
+</tr>
+<tr>
+<td align="center">⚡</td>
+<td><b>165+ Commands</b><br/><sub>Full workflows in one word</sub></td>
+<td><sub><code>/tdd</code> · <code>/code-review</code> · <code>/marketing-plan</code> · <code>/pitch-deck</code> · <code>/growth-audit</code> · <code>/security-scan</code></sub></td>
+</tr>
+<tr>
+<td align="center">📋</td>
+<td><b>Always-on Rules</b><br/><sub>Zero config — active every session</sub></td>
+<td><sub>Coding standards · TypeScript strict rules · Security checklist · Testing requirements — always running, never forget</sub></td>
+</tr>
+<tr>
+<td align="center">🔀</td>
+<td><b>4 Platforms, 1 Setup</b><br/><sub>Install once, works everywhere</sub></td>
+<td><sub>Claude Code · Cursor · Windsurf · OpenAI Codex</sub></td>
+</tr>
+</table>
+
+<br/>
+
+> **The result:** You talk to your AI exactly like before. The difference is what happens behind the scenes — the right expert activates, the right workflow runs, and the output is 10× better.
 
 ---
 
