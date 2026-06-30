@@ -33,45 +33,70 @@
 
 ## What Is This?
 
-**Your AI coding agent is already powerful. You're just not giving it the right tools.**
+Imagine you could hire 145 specialists — a senior security engineer, a CMO, a data scientist, a quant trader, a UX designer, a growth marketer — and they're all available the moment you need them, for free, forever.
 
-Every session starts from zero — no context, no specialization, no workflow memory. You're working with a genius who has amnesia.
+That's what this repo does. But for your AI.
 
-This repo changes that. Clone once, run setup, and your AI instantly gets:
+<br/>
+
+**The problem with AI today:**
+
+Your AI starts every session completely blank. No memory of how your codebase works. No idea you're a founder who needs a pitch deck, not just code. No context, no specialization, no workflow. Just a very smart assistant that doesn't know who you are or what you actually need.
+
+You get generic answers because you're giving it generic tools.
+
+<br/>
+
+**What this changes:**
+
+Clone this once, run a single setup script — and your AI transforms:
 
 <br/>
 
 <table>
 <tr>
-<td align="center" width="20%">🧠</td>
-<td width="35%"><b>480+ Skills</b><br/><sub>Domain knowledge that loads on demand</sub></td>
-<td width="45%"><sub>React best practices · Supabase RLS · OKR planning · Google Ads formulas · Security patterns · Trading strategies</sub></td>
+<td align="center" width="8%">🧠</td>
+<td width="32%"><b>484+ Skills</b><br/><sub>Domain knowledge that loads the moment it's relevant</sub></td>
+<td width="60%"><sub>Instead of "write me a marketing plan," your AI already knows Porter's Five Forces, TOFU/MOFU/BOFU, CAC/LTV formulas, Google Ads bidding strategy, and how to structure a 90-day GTM — before you finish typing</sub></td>
 </tr>
 <tr>
-<td align="center">🤖</td>
-<td><b>145+ Specialist Agents</b><br/><sub>AI roles that spawn automatically</sub></td>
-<td><sub><code>security-reviewer</code> · <code>market-researcher</code> · <code>ads-manager</code> · <code>tdd-guide</code> · <code>cmo-advisor</code> · <code>pitch-coach</code></sub></td>
+<td align="center">👥</td>
+<td><b>145+ Specialist Agents</b><br/><sub>The right expert for every task, activated automatically</sub></td>
+<td><sub>Ask about security → <code>security-reviewer</code> activates. Ask about market sizing → <code>market-researcher</code> takes over. Build a pitch deck → <code>pitch-coach</code> steps in. You never have to pick the expert. It just happens.</sub></td>
 </tr>
 <tr>
 <td align="center">⚡</td>
-<td><b>165+ Commands</b><br/><sub>Full workflows in one word</sub></td>
-<td><sub><code>/tdd</code> · <code>/code-review</code> · <code>/marketing-plan</code> · <code>/pitch-deck</code> · <code>/growth-audit</code> · <code>/security-scan</code></sub></td>
+<td><b>165+ Commands</b><br/><sub>Entire workflows in one word</sub></td>
+<td><sub><code>/marketing-plan</code> → full ICP + channel strategy + 90-day calendar<br/><code>/agent-blueprint</code> → complete AI agent spec + working code<br/><code>/eda</code> → full data analysis + forecast + insight brief<br/><code>/pitch-deck</code> → investor-ready 10-slide structure with narrative</sub></td>
 </tr>
 <tr>
 <td align="center">📋</td>
-<td><b>Always-on Rules</b><br/><sub>Zero config — active every session</sub></td>
-<td><sub>Coding standards · TypeScript strict rules · Security checklist · Testing requirements — always running, never forget</sub></td>
+<td><b>Always-on Standards</b><br/><sub>Quality rules that never switch off</sub></td>
+<td><sub>Every session: TypeScript strict rules · Security checklist · Testing requirements · Code review standards — running silently in the background, every time, automatically</sub></td>
+</tr>
+<tr>
+<td align="center">🔮</td>
+<td><b>Predict Anything</b><br/><sub>Upload historical data → get forecasts</sub></td>
+<td><sub>Revenue forecast · Customer growth · Churn rate · Hiring plan · Runway projection · AOV trend — with confidence intervals, 3 scenarios, and Monte Carlo simulation</sub></td>
 </tr>
 <tr>
 <td align="center">🔀</td>
 <td><b>4 Platforms, 1 Setup</b><br/><sub>Install once, works everywhere</sub></td>
-<td><sub>Claude Code · Cursor · Windsurf · OpenAI Codex</sub></td>
+<td><sub>Claude Code · Cursor · Windsurf · OpenAI Codex — same config, same skills, same power across every AI tool you use</sub></td>
 </tr>
 </table>
 
 <br/>
 
-> **The result:** You talk to your AI exactly like before. The difference is what happens behind the scenes — the right expert activates, the right workflow runs, and the output is 10× better.
+> **The before/after:**
+> 
+> *Before:* "Write me a marketing plan" → generic 5-paragraph answer with no numbers, no ICP, no channel breakdown, no budget logic.
+> 
+> *After:* Same question → CMO-level strategy with your ICP defined, channel mix scored by CPL efficiency, TOFU/MOFU/BOFU mapping, 90-day calendar, and a budget allocation framework — because the right skill and agent activated automatically.
+
+<br/>
+
+> You talk to your AI exactly like before. What changes is what happens behind the scenes — and what you get back.
 
 ---
 
