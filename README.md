@@ -88,15 +88,190 @@ Clone this once, run a single setup script — and your AI transforms:
 
 <br/>
 
-> **The before/after:**
-> 
-> *Before:* "Write me a marketing plan" → generic 5-paragraph answer with no numbers, no ICP, no channel breakdown, no budget logic.
-> 
-> *After:* Same question → CMO-level strategy with your ICP defined, channel mix scored by CPL efficiency, TOFU/MOFU/BOFU mapping, 90-day calendar, and a budget allocation framework — because the right skill and agent activated automatically.
+> You talk to your AI exactly like before. What changes is what happens behind the scenes — and what you get back.
+
+---
+
+## 🆚 Same Prompt. Completely Different World.
 
 <br/>
 
-> You talk to your AI exactly like before. What changes is what happens behind the scenes — and what you get back.
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 😐 Regular AI
+
+</td>
+<td width="50%" align="center">
+
+### 🚀 AI + This Repo
+
+</td>
+</tr>
+
+<!-- EXAMPLE 1: MARKETING PLAN -->
+<tr>
+<td colspan="2" align="center">
+<sub><b>💬 Prompt: "buatkan marketing plan untuk product launch bulan depan"</b></sub>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<br/>
+
+```
+Here's a marketing plan:
+
+1. Define your target audience
+2. Choose the right channels
+3. Create engaging content
+4. Measure your results
+5. Optimize over time
+
+Good luck with your launch! 🎉
+```
+
+<sub>❌ No ICP. No numbers. No channel logic.<br/>Could be copy-pasted from a 2015 blog post.</sub>
+<br/>
+</td>
+<td valign="top">
+<br/>
+
+```
+ICP: B2B SaaS · 10-50 karyawan · pain: churn >5%
+
+CHANNEL MIX (scored by CPL efficiency):
+→ LinkedIn Ads    CPL ~$45  | MQL rate 22%  ✓ go
+→ SEO Content     CPL ~$12  | MQL rate 31%  ✓ go
+→ Cold Email      CPL ~$8   | MQL rate 18%  ✓ go
+→ Meta Ads        CPL ~$78  | MQL rate 9%   ✗ skip
+
+TOFU: 3 pillar articles + 2 LinkedIn thought pieces
+MOFU: webinar + case study + comparison page
+BOFU: free trial + personalized demo flow
+
+90-DAY CALENDAR → [Week 1–4: awareness build...]
+BUDGET: 40% paid / 35% content / 25% events
+```
+
+<sub>✅ ICP defined. CPL scored. Budget allocated.<br/><code>cmo-advisor</code> agent + <code>marketing-strategy</code> skill activated.</sub>
+<br/>
+</td>
+</tr>
+
+<!-- EXAMPLE 2: DATA PREDICTION -->
+<tr>
+<td colspan="2" align="center">
+<sub><b>💬 Prompt: "predict revenue kita 12 bulan ke depan dari data ini"</b></sub>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<br/>
+
+```
+Based on your data, here are some factors
+that might affect your revenue:
+
+• Market conditions
+• Customer retention
+• Pricing strategy
+• Competition
+
+I recommend tracking these metrics monthly
+to see how your revenue trends over time.
+```
+
+<sub>❌ No forecast. No model. No numbers.<br/>Just generic advice that helps no one.</sub>
+<br/>
+</td>
+<td valign="top">
+<br/>
+
+```
+MODEL: Prophet (80% confidence interval)
+ACCURACY: 91.3% (MAPE 8.7%) on historical data
+FORECAST HORIZON: 12 months
+
+Month      Base Case    Pessimistic   Optimistic
+─────────────────────────────────────────────────
+Jul 2025   Rp 187M      Rp 141M       Rp 243M
+Aug 2025   Rp 201M      Rp 151M       Rp 261M
+...
+Jun 2026   Rp 334M      Rp 251M       Rp 434M
+
+GROWTH: +78% base case vs today
+PEAK:   November 2025 (seasonal uplift)
+RISK:   Forecast assumes <15% MoM churn
+```
+
+<sub>✅ Real forecast. Confidence intervals. 3 scenarios.<br/><code>predictive-analytics</code> skill + <code>data-analyst</code> agent.</sub>
+<br/>
+</td>
+</tr>
+
+<!-- EXAMPLE 3: SECURITY AUDIT -->
+<tr>
+<td colspan="2" align="center">
+<sub><b>💬 Prompt: "review security dari API endpoint ini"</b></sub>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<br/>
+
+```
+Your API looks mostly fine! A few things
+you might want to check:
+
+• Make sure you validate inputs
+• Use HTTPS
+• Add authentication
+• Log errors properly
+
+Overall it seems okay. Let me know if
+you have any questions!
+```
+
+<sub>❌ No specific vulnerabilities found.<br/>No severity. No fix. Borderline useless.</sub>
+<br/>
+</td>
+<td valign="top">
+<br/>
+
+```
+SECURITY AUDIT REPORT
+═══════════════════════════════════════
+🔴 CRITICAL  SQL Injection — line 47
+   Raw string concat in DB query
+   FIX: parameterized query →
+   db.query("SELECT * WHERE id = $1", [id])
+
+🔴 CRITICAL  Auth bypass — line 89
+   JWT not verified before data access
+   FIX: move verifyToken() before handler
+
+🟡 HIGH  Rate limit missing on /api/auth
+   Brute force attack surface open
+   FIX: add express-rate-limit (5 req/min)
+
+🟡 HIGH  Sensitive data in error response
+   Stack trace exposed to client
+   FIX: generic error message in prod
+```
+
+<sub>✅ Specific. Line numbers. Severity. Fix included.<br/><code>security-reviewer</code> agent + OWASP Top 10 activated.</sub>
+<br/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+<sub>Same prompt. Same AI model. The only difference: this repo is installed.</sub>
+</div>
 
 ---
 
